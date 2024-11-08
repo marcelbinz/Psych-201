@@ -4,4 +4,4 @@ De Deyne, S., Navarro, D. J., Perfors, A., Brysbaert, M., & Storms, G. (2019). T
 
 ### Data source:
 
-https://smallworldofwords.org/en/project/research
+https://smallworldofwords.org/en/project/research#download

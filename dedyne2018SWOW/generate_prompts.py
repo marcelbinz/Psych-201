@@ -8,7 +8,7 @@ os.chdir(script_dir)
 print("Current working directory:", os.getcwd())
 
 # Read the data with explicit separator and encoding
-df = pd.read_csv('SWOW.csv', 
+df = pd.read_csv('SWOW-EN.R100.20180827.csv', 
                  sep=',',  # Changed from '\t' to ','
                  on_bad_lines='warn')
 
@@ -30,11 +30,18 @@ for i, participant_id in enumerate(df['participantID'].unique(), start=0):
     
     # Add each trial
     for _, row in participant_data.iterrows():
-        # Handle NA responses
-        r1 = row['R1'] if pd.notna(row['R1']) else 'NA'
-        r2 = row['R2'] if pd.notna(row['R2']) else 'NA'
-        r3 = row['R3'] if pd.notna(row['R3']) else 'NA'
-        trial_text = f'The word is "{row["cue"]}". You type: <<{r1}>>. You then type: <<{r2}>>. You then type: <<{r3}>>\n'
+        # Start with the cue word
+        trial_text = f'The word is "{row["cue"]}". '
+        
+        # Add responses only if they exist
+        if pd.notna(row['R1']):
+            trial_text += f'You type: <<{row["R1"]}>>. '
+        if pd.notna(row['R2']):
+            trial_text += f'You then type: <<{row["R2"]}>>. '
+        if pd.notna(row['R3']):
+            trial_text += f'You then type: <<{row["R3"]}>>. '
+        
+        trial_text += '\n'
         prompt += trial_text
     
     # Create prompt object with sequential number instead of participantID

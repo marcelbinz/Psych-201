@@ -8,7 +8,7 @@
 | Economic games | - | 90,000 | [Link](https://arxiv.org/pdf/2408.07865) | Jianqiao Zhu |
 | Naturalistic decision-making | - | 200,000 | [Link](https://google.com) | Marcel Binz |
 | Optimal stopping | - | ? | [Link](https://google.com) | Brian Christian |
-| Spatially-correlated | anxiety | ? | [Link](https://google.com) | Kristin Witte |
+| Spatially-correlated | anxiety/depression | 26,216 | [Link](https://github.com/KristinWitte/worried_exploration) | Kristin Witte |
 | Probabilistic reversal learning | ? | 161,600 | [Link](https://www.nature.com/articles/s41562-021-01176-8) | Huadong Xiong |
 | SWOW | ? | 3,000,000 | [Link](https://smallworldofwords.org/en/project/research) | Shane Lindsay |
 | Two-step task | age (8-25) | 16,000 | [Link](https://github.com/hartleylabnyu/online_two_step_replication/tree/master/analysis_code_and_data/data/decker) | Kate Nussenbaum |

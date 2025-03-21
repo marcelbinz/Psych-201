@@ -54,6 +54,7 @@
 | Belief updating | anxiety (Q) | 2,670 | [Link](https://www.nature.com/articles/s41467-023-39825-3) | Marvin |
 | Go-NoGo | anxiety (G) | 48,480 | [Link](https://linkinghub.elsevier.com/retrieve/pii/S0006322317300914) | Susanne |
 | Social value orientation | paranoia (Q)  | 37,638 | [Link](https://pubmed.ncbi.nlm.nih.gov/35349872/) | Kozzy |
+| Goal pursuit | age, brain lession  | approx 21,500 | [Link]([https://pubmed.ncbi.nlm.nih.gov/35349872/](https://www.nature.com/articles/s41562-024-01844-5)) | Eleanor Holton |
 
 
 # List of open data sets

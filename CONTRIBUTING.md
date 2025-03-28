@@ -111,3 +111,5 @@
 | Relational judgments for novel compounds | - | 22,000 | [Link](https://doi.org/10.1016/j.cogpsych.2022.101471) | Fritz Günther |
 | Maxdiff judgments for visual similarity | - | 33,055 | [Link](https://doi.org/10.1037/rev0000392) | Fritz Günther |
 | Word substitutions | - | 18,216 | [Link](https://doi.org/10.1016/j.jml.2023.104477) | Fritz Günther |
+| Goal commitment | PFC lesions | 24374 | [Link](https://www.nature.com/articles/s41562-024-01844-5) | Holton |
+

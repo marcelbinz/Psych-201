@@ -1,0 +1,10 @@
+### Reference:
+
+Thoma, A. I., Newell, B. & Schulze, C. (2025). Emerging Adaptivity in Probability Learning: How Young Minds and the Environment Interact. Journal of Experimental Psychology: General. https://doi.org/10.1037/xge0001747
+
+### Data source:
+
+https://osf.io/574my
+
+### Information about the task (quote Thoma et al., 2025)
+"We developed a tablet-based  repeated choice task with 100 trials in which participants had to find escaped zoo animals that were hiding behind two houses [...]. To begin, an experimenter introduced the task and showed the participant one of two laminated sheets displaying 50 out of 100 escaped animals. This procedure informed participants that there were many trials without revealing the total number. Adults completed the task by themselves, reading the instructions on the tablet; children were instructed verbally. The experimenter presented the child with the tablet showing an illustration of two identical houses side by side (Figure 1A) and explained that they needed to find as many escaped animals as possible by guessing behind which of the houses an animal was hiding. In two practice trials, participants were familiarized with the symbols for a correct choice (checkmark[...]) and an incorrect choice (cross[...]). In the ecologically dynamic condition, participants completed a third practice trial in which two animals were hiding, one behind each house [...]. The experimenter explained that only one animal can be found per trial, even if two animals are hiding. After participants made a choice by tapping on the tablet, a feedback screen showed where the animal was hiding, a hand symbol indicated the chosen option, and a checkmark or cross at the top of the screen marked whether the choice was correct or incorrect. Both houses were rendered transparent to provide full feedback about the outcomes of both options. At the top left of the screen, one-tenth of a blue circle was added for every correct choice. For every full circle, children received a physical token that they could later exchange for a sticker."

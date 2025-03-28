@@ -8,8 +8,8 @@ We aim to collect a data set 10x the size of Psych-101, meaning that Psych-201 w
 **Deadline for contributions:** March 31th 2025
 
 Current progress: 
-* **18,283,645** human choices
-* **426,023** participants
+* **18,308,019** human choices
+* **42,6103** participants
 
 We will summarize this new data set in a paper for the **NeurIPS 2025 Datasets and Benchmarks Track** (or a similar venue). Every contributor will be eligible for co-authorship on this paper. If you want to contribute, please follow the instructions below. In case you are unsure whether the experiment you have in mind is suitable for Psych-201, please [reach out](mailto:marcel.binz@helmholtz-munich.de) first.
 

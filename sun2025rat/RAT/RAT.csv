@@ -1,0 +1,468 @@
+	id	answer_1	answer_2	answer_3	answer_4	answer_5	answer_6	answer_7	answer_8	answer_9	answer_10	answer_11	answer_12	answer_13	answer_14	answer_15	score_1	score_2	score_3	score_4	score_5	score_6	score_7	score_8	score_9	score_10	score_11	score_12	score_13	score_14	score_15	gender	age	employment	education	area of study
+0	1	辣子	曲线	记者	分割线	膨胀		悬崖	胶囊	吸烟	豆蔻	尺子		近视		通讯	0	1	1	0	1	0	1	0	1	1	1	0	0	0	0	female	above 30	other	bachelor	STEM
+1	2	洋葱	曲线	宣传	时间	膨胀	不忍直视	险峻	糖衣	香烟	豆蔻	心理	将军	阅读	鸳鸯	天眼	1	1	0	0	1	0	0	0	1	1	0	1	1	1	0	male	above 30	other	bachelor	STEM
+2	3	洋葱	同胞	反恐	比例	膨胀	视频	悬崖	糖衣	香烟	豆蔻	直尺	将军	近视眼	鸳鸯	回声	1	0	0	1	1	0	1	0	1	1	1	1	0	1	1	male	above 30	other	bachelor	STEM
+3	4	葱头	曲线	记者	比例	鼓吹	明显	悬崖	糖果	吸烟	芳华	尺子	将帅	阅读	鸳鸯	雷达	0	1	1	1	0	0	1	1	1	0	1	0	1	1	0	female	between 24 and 29	current employee	bachelor	STEM
+4	5	洋葱	旗袍	记者	股票	孔明灯	电影	战争	糖果	香烟	荷花	直角尺	丞相	书房	鸳鸯	回声	1	0	1	0	0	0	0	1	1	0	0	0	0	1	1	female	between 24 and 29	current graduate	bachelor	STEM
+5	6	洋葱	数学家	记者	金融	颁奖	视觉	战争	糖果	吸烟	豆蔻	直尺	博弈	学习	友好	回声	1	0	1	0	0	1	0	1	1	1	1	0	0	0	1	female	above 30	current employee	master	Other social science subjects
+6	7	洋葱	宋庆龄	记者	汇率	飞艇	电影	冲刺	零食	香烟	百合花	直尺	将军	影响力	皮划艇	信鸽	1	0	1	0	0	0	0	0	1	0	1	1	0	0	0	male	above 30	other	bachelor	STEM
+7	8	洋葱	曲线	记者	股市	自满	烟花	险峻	糖衣	吸烟	玫瑰	量杯	军棋	专业课	鸳鸯	回音	1	1	1	0	0	0	0	0	1	0	0	0	0	1	1	female	above 30	current employee	bachelor	STEM
+8	9	洋葱	曲线	记者	比例	放纵	视觉	翻越	糖果	香烟	豆蔻	尺子	将帅	阅读	鸳鸯	回声	1	1	1	1	0	1	0	1	1	1	1	0	1	1	1	female	unknown	current graduate	bachelor	Programme subject
+9	10	洋葱	蘑菇云	记者	比例	庆典	电影	英雄	棕熊	吸烟	豆蔻	直尺	将军	阅读	游泳池	回音	1	0	1	1	0	0	0	0	1	1	1	1	1	0	1	male	above 30	current employee	master	Other social science subjects
+10	11	洋葱	曲线	记者	比例	膨胀	闪耀	刺激	糖衣	香烟	豆蔻	直尺	将军	知识	鸳鸯	声波	1	1	1	1	1	0	0	0	1	1	1	1	0	1	0	female	below 23	other	bachelor	Arts and humanities
+11	12	洋葱	思想	记者	分割	膨胀	电影	勒马	糖衣	抽烟	鲜花	尺子	将军	阅读	鸳鸯	回声	1	0	1	0	1	0	0	0	1	0	1	1	1	1	1	male	between 24 and 29	current employee	bachelor	Other social science subjects
+12	13	洋葱	曲线	记者	炒股	运动会	辣椒水	珠峰	蜂蜜	香烟	花样	直尺	宰相	眼镜	鸳鸯	回音壁	1	1	1	0	0	0	0	0	1	0	1	0	0	1	0	female	between 24 and 29	other	bachelor	Arts and humanities
+13	14	农药	曲线	记者	分割	爆炸	视觉	跌落	糖衣	吸烟	豆蔻	直尺	将军	阅读	鸳鸯	回声	0	1	1	0	1	1	0	0	1	1	1	1	1	1	1	male	unknown	current employee	bachelor	STEM
+14	15	洋葱	科学家	记者	采矿	求婚	爆炸	坠崖	陷阱	吸烟	生命力	直尺	战略	心流	打扰	接收器	1	0	1	0	0	0	0	0	1	0	1	1	0	0	0	female	unknown	current graduate	bachelor	Other social science subjects
+15	16	洋葱	数学家	记者	投资	膨胀	设计图	武侠剧	热量	抽烟	鲜花	直尺	将军	学习	鸳鸯	反馈	1	0	1	0	1	0	0	0	1	0	1	1	0	1	0	female	below 23	current graduate	bachelor	Other social science subjects
+16	17	洋葱	曲线	记者	库存	膨胀	爆炸	送信	笑气	吸烟	豆蔻	格尺	将帅	阅读	吵架	回音	1	1	1	0	1	0	0	0	1	1	0	0	1	0	1	female	unknown	current graduate	bachelor	Programme subject
+17	18	洋葱	三角	记者	分割率	膨胀	立体	悬崖	糖衣	二手烟	豆蔻	直尺	军长	阅读	鸳鸯	超声波	1	0	1	0	1	0	1	0	0	1	1	0	1	1	0	male	below 23	current graduate	bachelor	Programme subject
+18	19	洋葱	曲线	记者	金字塔	热气球	眼泪	悬崖	糖果	香烟	豆蔻	直尺	将军	阅读	唐老鸭	回音	1	1	1	0	0	0	1	1	1	1	1	1	1	0	1	female	between 24 and 29	current employee	bachelor	Arts and humanities
+19	20	洋葱	原子弹	记者	比例	探险	电影	悬崖	蜂蜜	吸烟	豆蔻	尺子	将帅	阅读	鸳鸯	回声	1	0	1	1	0	0	1	0	1	1	1	0	1	1	1	male	above 30	current employee	bachelor	Other social science subjects
+20	21	洋葱	教师	记者	比例	热气球	虚拟	赛马	化工厂	香烟	玫瑰	塑料尺	谋士	阅读	油皮艇	大喊	1	0	1	1	0	0	0	0	1	0	1	0	1	0	0	female	below 23	current graduate	bachelor	Programme subject
+21	22	洋葱	科学家	记者	比例	小丑	万花筒	悬崖	糖果	香烟	昙花	尺子	宰相	阅读	鸳鸯	回声	1	0	1	1	0	0	1	1	1	0	1	0	1	1	1	male	unknown	other	bachelor	STEM
+22	23	洋葱	失败	记者	比例	泄气	立体	掉头	糖衣炮	烟草	胭脂	尺子	丞相	阅读	分手	声传播	1	0	1	1	0	0	0	0	1	0	1	0	1	0	0	female	unknown	other	bachelor	Programme subject
+23	24	洋葱	曲线	记者	比例	上升	视觉	悬崖	糖果	香烟	豆蔻	直尺	将军	阅读	追逐	回音	1	1	1	1	0	1	1	1	1	1	1	1	1	0	1	female	between 24 and 29	other	bachelor	Other social science subjects
+24	25	鱼腥草	五四运动	电报台	圆周率	避孕套	错觉	西藏	蜂蜜	二手烟	曼罗兰	身高尺	谋略	人类简史	狗血剧	外星人	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	female	between 24 and 29	other	bachelor	Arts and humanities
+25	26	洋葱	曲线	记者	价格	膨胀	视觉	悬崖	糖果	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	回声	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	male	between 24 and 29	current employee	bachelor	STEM
+26	27	洋葱	曲线	记者	比例	膨胀	感受	希望	糖果	吸烟	青春	尺子	将军	阅读	鸳鸯	回声	1	1	1	1	1	0	0	1	1	0	1	1	1	1	1	male	between 24 and 29	other	bachelor	Other social science subjects
+27	28	洋葱	曲线	记者	比例	幻想	电影	大自然	糖果	香烟	玫瑰	学者	博弈	学习	野营	回音	1	1	1	1	0	0	0	1	1	0	0	0	0	0	1	male	between 24 and 29	other	bachelor	Arts and humanities
+28	29	大蒜	曲线	记者	交易	高升	特效	悬崖	曼妥思	电池	玫瑰	尺子	将军	笔记	嬉闹	蝙蝠	0	1	1	0	0	0	1	0	0	0	1	1	0	0	0	male	below 23	current graduate	bachelor	Programme subject
+29	30	洋葱	理性	媒体	分摊	贪婪	爆炸	雪崩	糖果	香烟	青年	仪器	博弈	阅读	游戏	反馈	1	0	0	0	0	0	0	1	1	0	0	0	1	0	0	female	unknown	current graduate	bachelor	STEM
+30	31	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖果	香烟	豆蔻	直尺	将军	学习	鸳鸯	回音	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	female	unknown	other	bachelor	Arts and humanities
+31	32	大蒜	曲线	记者	黄金比	膨胀	敏锐	勒马	糖衣	二手烟	豆蔻	塑料尺	策略	熟读	鸳鸯	回声	0	1	1	0	1	0	0	0	0	1	1	0	0	1	1	male	unknown	current graduate	bachelor	STEM
+32	33	农药	曲线	记者	比例	膨胀	视觉	悬崖	糖衣	吸烟	豆蔻	尺子	将军	学习	鸳鸯	回音	0	1	1	1	1	1	1	0	1	1	1	1	0	1	1	female	below 23	current graduate	bachelor	Other social science subjects
+33	34	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖衣	香烟	豆蔻	直尺	小卒	思考	鸳鸯	回音	1	1	1	1	1	1	1	0	1	1	1	0	1	1	1	female	below 23	current graduate	bachelor	Other social science subjects
+34	35	洋葱	民族英雄	战地记者	黄金比例	欲求不满	视觉特效	悬崖勒马	糖衣炮弹	二手烟	花样年华	尺子	将军	深度学习	棒打鸳鸯	回声	1	0	0	0	0	0	0	0	0	0	1	1	0	0	1	male	between 24 and 29	current employee	bachelor	STEM
+35	36	洋葱	曲线	记者	分割	膨胀	电影	山地	糖衣	抽烟	豆蔻	直尺	将军	精读	鸳鸯	回音	1	1	1	0	1	0	0	0	1	1	1	1	0	1	1	female	below 23	current graduate	bachelor	Programme subject
+36	37	洋葱	求和	记者	股票	热气球	电影院	悬崖	罐头	吸烟 	豆蔻	直尺	将军	阅读	鸳鸯	回音	1	0	1	0	0	0	1	0	1	1	1	1	1	1	1	female	unknown	other	bachelor	Programme subject
+37	38	大葱	边际线	通讯员	金三角	跳伞家	闪光弹	高原	谗言	二手烟	香水	直尺	丞相	社科书	鸳鸯	回音	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	male	between 24 and 29	current employee	bachelor	Other social science subjects
+38	39	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖衣	吸烟	豆蔻	直尺	元帅	阅读	服装	回声	1	1	1	1	1	1	1	0	1	1	1	0	1	0	1	male	unknown	current graduate	bachelor	Programme subject
+39	40	洋葱	原子弹	记者	比例	金苹果	虚拟	悬崖	荔枝	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	声呐	1	0	1	1	0	0	1	0	1	1	1	1	1	1	0	female	unknown	other	bachelor	Programme subject
+40	41	洋葱	曲线	中立	金本位	小公主	祖国人	奥丁	炸弹堂	尼古丁	豆蔻	直尺	老帅	做笔记	可达鸭	雷达	1	1	0	0	0	0	0	0	0	1	1	0	0	0	0	male	between 24 and 29	other	bachelor	Programme subject
+41	42	洋葱	曲线	记者	证券	膨胀	爆炸	骑兵	蜜糖	二手烟	豆蔻	直尺	将军	阅读	鸳鸯	回音	1	1	1	0	1	0	0	1	0	1	1	1	1	1	1	female	unknown	other	bachelor	STEM
+42	43	洋葱	留学	记者	圆周率	膨胀	屏幕	悬崖	蛀牙	吸烟	木棉	限高杆	元帅	失眠	鸳鸯	望远镜	1	0	1	0	1	0	1	0	1	0	0	0	0	1	0	female	unknown	other	bachelor	Arts and humanities
+43	44	洋葱	曲线	记者	比例	放纵	视觉	悬崖	糖果	吸烟	豆蔻	尺子	将军	学习	鸳鸯	回音	1	1	1	1	0	1	1	1	1	1	1	1	0	1	1	female	between 24 and 29	other	bachelor	STEM
+44	45	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖果	香烟	玫瑰	直尺	军棋	阅读	鸳鸯	回音	1	1	1	1	1	1	1	1	1	0	1	0	1	1	1	male	below 23	current graduate	bachelor	Programme subject
+45	46	洋葱	曲线	记者	货币	膨胀	震撼	悬崖	糖果	抽烟	豆蔻	直尺	将军	阅读	鸳鸯	回响	1	1	1	0	1	0	1	1	1	1	1	1	1	1	0	female	below 23	current graduate	bachelor	STEM
+46	47	洋葱	曲线	传令兵	比例	膨胀	引爆	悬崖	糖衣	吸烟	豆蔻	尺子	将军	学习	鸳鸯	回声	1	1	0	1	1	0	1	0	1	1	1	1	0	1	1	male	unknown	other	bachelor	STEM
+47	48	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖果	抽烟	豆蔻	矩尺	大将	阅读	鸳鸯	回音	1	1	1	1	1	1	1	1	1	1	0	0	1	1	1	female	unknown	current graduate	bachelor	STEM
+48	49	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖衣	香烟	豆蔻	直尺	将军	阅读	鸳鸯	回音	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	male	unknown	current graduate	bachelor	Other social science subjects
+49	50	洋葱	曲线	记者	金融	膨胀	特效	行军	糖衣	香烟	豆蔻	直尺	将军	阅读	鸳鸯	回音	1	1	1	0	1	0	0	0	1	1	1	1	1	1	1	male	between 24 and 29	current employee	bachelor	Programme subject
+50	51	洋葱	曲线	记者	股市	轻浮	视觉	悬崖	糖衣	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	回音	1	1	1	0	0	1	1	0	1	1	1	1	1	1	1	male	below 23	current graduate	bachelor	Programme subject
+51	52	洋葱	智慧	记者	货币	荣誉	眼镜	威武	泡泡糖	香烟	昙花	尺子	将军	札记	鸳鸯	信鸽	1	0	1	0	0	0	0	0	1	0	1	1	0	1	0	female	unknown	current employee	bachelor	Arts and humanities
+52	53	洋葱	原子弹	记者	函数	小屁孩	爆闪	悬崖	白糖罐	香烟	玫瑰	三角尺	将军	书签	鸳鸯	回音	1	0	1	0	0	0	1	0	1	0	0	1	0	1	1	male	below 23	current graduate	bachelor	Other social science subjects
+53	54	洋葱	伟人	记者	圆周率	打破	电影	长征	蜜糖	碳排放	时间	直尺	元帅	按摩椅	唐老鸭	声波	1	0	1	0	0	0	0	1	0	0	1	0	0	0	0	male	between 24 and 29	current employee	bachelor	STEM
+54	55	洋葱	曲线	记者	投资	膨胀	视觉	悬崖	糖衣	吸烟	桃花	尺子	将军	阅读	鸳鸯	回音	1	1	1	0	1	1	1	0	1	0	1	1	1	1	1	female	between 24 and 29	other	bachelor	Other social science subjects
+55	56	洋葱	曲线	记者	比例	膨胀	爆炸	悬崖	金融	香烟	玫瑰	直尺	将军	阅读	鸳鸯	回音	1	1	1	1	1	0	1	0	1	0	1	1	1	1	1	male	between 24 and 29	current graduate	bachelor	Other social science subjects
+56	57	洋葱	数学	记者	比例	热气球	爆炸	悬崖	毒气弹	香烟	豆蔻	尺子	宰相	爱好	鸳鸯	回声	1	0	1	1	0	0	1	0	1	1	1	0	0	1	1	male	below 23	current graduate	bachelor	STEM
+57	58	洋葱	曲线	记者	比例	胜利	镜头	山地战	糖果	香烟	落花	量角器	将军	思考	鸳鸯	雷达	1	1	1	1	0	0	0	1	1	0	0	1	1	1	0	female	unknown	current graduate	bachelor	Other social science subjects
+58	59	洋葱	曲线	记者	比例	天空	视觉	悬崖	糖衣	尾气	豆蔻	尺子	将士	阅读	鸳鸯	回声	1	1	1	1	0	1	1	0	0	1	1	0	1	1	1	female	below 23	current graduate	bachelor	Programme subject
+59	60	洋葱	曲线	记者	雕塑	膨胀	特效	征服	糖衣	吸烟	豆蔻	尺子	军师	书虫	鸳鸯	对山歌	1	1	1	0	1	0	0	0	1	1	1	0	0	1	0	female	between 24 and 29	other	bachelor	Arts and humanities
+60	61	洋葱	原子弹	记者	比例	火箭	电影	戍边	糖衣	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	信天游	1	0	1	1	0	0	0	0	1	1	1	1	1	1	0	male	below 23	current graduate	bachelor	Other social science subjects
+61	62	洋葱	曲线	前线	六一八	膨胀	电影	悬崖	糖衣弹	二手烟	豆蔻	直角尺	将军	专注	鸳鸯	回音	1	1	0	0	1	0	1	0	0	1	0	1	0	1	1	female	between 24 and 29	other	bachelor	STEM
+62	63	洋葱	曲线	记者	比例	膨胀	电影	悬崖	热量	香烟	鲜花	直尺	将军	阅读	一对	往返	1	1	1	1	1	0	1	0	1	0	1	1	1	0	0	male	below 23	current graduate	bachelor	Programme subject
+63	64	洋葱 	理想	记者	比例	成长	镜子	体育	糖果	吸烟	豆蔻	直尺	将军	思维	游戏	雷达	1	0	1	1	0	0	0	1	1	1	1	1	0	0	0	female	between 24 and 29	other	bachelor	STEM
+64	65	洋葱	曲线	记者	比例	膨胀	三维	悬崖	糖果	吸烟	豆蔻	直尺	将帅	思维	鸳鸯	回音	1	1	1	1	1	0	1	1	1	1	1	0	0	1	1	female	unknown	current graduate	bachelor	Programme subject
+65	66	化肥	导弹	记者	美联储	生日	电影	驴友	腐败	香烟	精华	环保	参谋长	阅读	鸳鸯	无线电	0	0	1	0	0	0	0	0	1	0	0	0	1	1	0	female	above 30	current employee	bachelor	STEM
+66	67	洋葱	曲线	记者	比率	膨胀	3D		蜂蜜	吸烟	豆蔻	直尺	将军	学习	鸳鸯	声音	1	1	1	0	1	0	0	0	1	1	1	1	0	1	0	female	unknown	current employee	bachelor	Arts and humanities
+67	68	洋葱	曲线	记者	比例	膨胀	爆炸	狂奔	巧克力	氢气	青葱	直尺	将军	阅读	鸳鸯	回声	1	1	1	1	1	0	0	0	0	0	1	1	1	1	1	female	between 24 and 29	current employee	bachelor	Arts and humanities
+68	69	白酒	曲线	报纸	战争	颁奖礼	狙击手	牛仔	糖果	香烟	化妆品	三角尺	将军	阅读	鸳鸯	对唱	0	1	0	0	0	0	0	1	1	0	0	1	1	1	0	male	above 30	other	master	Other social science subjects
+69	70	洋葱	商女	记者	比例	膨胀	爆炸	古战场	瓦斯	烟雾	豆蔻	直尺	将军	阶梯	鸳鸯	回声	1	0	1	1	1	0	0	0	0	1	1	1	0	1	1	female	between 24 and 29	current employee	bachelor	Programme subject
+70	71	酸涩	科学家	死亡	金融	戏剧	电影	悬崖	包装	吸烟	青春	教官	竞争	学习	玩耍	雷达	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	female	above 30	other	master	STEM
+71	72	洋葱	曲线	记者	比例	膨胀	视觉	险滩	糖衣	烟味	豆蔻	尺子	司令	阅读	鸳鸯	回音	1	1	1	1	1	1	0	0	0	1	1	0	1	1	1	female	below 23	current graduate	bachelor	Programme subject
+72	73	芥末	科学家	记者	金融	生日	电影	跑山	泡泡糖	吸烟	青春	尺子	将军	阅读	搭档	烽火台	0	0	1	0	0	0	0	0	1	0	1	1	1	0	0	male	above 30	current employee	master	Other social science subjects
+73	74	洋葱	曲线	记者	比例	膨胀	灯光	平原	糖果	吸烟	豆蔻	三角板	将军	阅读	鸳鸯	回音	1	1	1	1	1	0	0	1	1	1	0	1	1	1	1	female	above 30	current employee	bachelor	Other social science subjects
+74	75	洋葱	曲线	记者	比例	膨胀	视觉	骑马	糖果	香烟	花朵	直尺	将军	阅读	鸳鸯	回声	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	female	below 23	current graduate	bachelor	Programme subject
+75	76	洋葱	曲线	记者	比例	鼓吹	视觉	落下	蜜糖	吸烟	芬芳	尺子	国王	学习	鸳鸯	回声	1	1	1	1	0	1	0	1	1	0	1	0	0	1	1	female	above 30	current employee	bachelor	STEM
+76	77	洋葱	曲线	记者	央行	膨胀	视觉	骑兵	糖衣	吸烟	精油	三角板	军官	阅读	鸭舌帽	回音	1	1	1	0	1	1	0	0	1	0	0	0	1	0	1	female	above 30	current employee	master	Other social science subjects
+77	78	洋葱	曲线	记者	比例	爆炸	视觉	奔驰	糖衣	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	回声	1	1	1	1	1	1	0	0	1	1	1	1	1	1	1	female	above 30	other	bachelor	STEM
+78	79	洋葱	曲线	记者	分割	膨胀	视觉	飞驰	蜜糖	跳蚤	豆蔻	回收	将军	思考	鸳鸯	信号	1	1	1	0	1	1	0	1	0	1	0	1	1	1	0	female	above 30	current employee	bachelor	STEM
+79	80	洋葱	曲线	记者	比例	爆炸	视觉	崎岖	糖果	吸烟	花朵	尺子	将帅	阅读	礼物	回声	1	1	1	1	1	1	0	1	1	1	1	0	1	0	1	female	between 24 and 29	current employee	bachelor	Programme subject
+80	81	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖衣	香烟	豆蔻	直尺	将军	阅读	鸳鸯	回音	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	female	between 24 and 29	other	bachelor	Programme subject
+81	82	洋葱	商女	记者	比例	轻浮	科幻	飞驰	发酵	塑料	昙花	直尺	将军	笔记	鸳鸯	回音	1	0	1	1	0	0	0	0	0	0	1	1	0	1	1	female	below 23	current graduate	bachelor	Programme subject
+82	83	洋葱	曲线	记者	三角	不堪一击	三D画面	粉身碎骨	资本主义	香烟	豆蔻	格尺	将军	腹有诗书气自华	棒打鸳鸯	飞鸽传书	1	1	1	0	0	0	0	0	1	1	0	1	0	0	0	female	above 30	current employee	bachelor	Arts and humanities
+83	84	洋葱	曲线	记者	分割	破灭	震撼	驰骋	糖衣炮弹	转移	葳蕤	直尺	将军	思考	拆散	回音	1	1	1	0	0	0	0	0	0	0	1	1	1	0	1	female	above 30	current employee	bachelor	Other social science subjects
+84	85	大蒜	曲线	记者	经济	膨胀	逼真	赛马	蜜糖	香烟	锦绣	直尺	将军	阅读	鸳鸯	回声	0	1	1	0	1	0	0	1	1	0	1	1	1	1	1	male	between 24 and 29	other	bachelor	STEM
+85	86	洋葱	答案	记者	圆周率	膨胀	视觉	悬崖	蜂蜜	气体	青春	尺子	将军	阅读	吵架	回音	1	0	1	0	1	1	1	0	0	0	1	1	1	0	1	female	between 24 and 29	current employee	master	Other social science subjects
+86	87	洋葱	曲线	记者	比例	膨胀	视觉	牛仔	蜜糖	香烟	春天	标尺	将军	阅读	鸳鸯	回声	1	1	1	1	1	1	0	1	1	0	0	1	1	1	1	female	above 30	other	bachelor	Other social science subjects
+87	88	洋葱	曲线	记者	比例	凯旋	立体电影	悬崖勒马	糖衣炮弹	垃圾处理	豆蔻年华	直尺	策略	思考	玩耍	信号	1	1	1	1	0	0	0	0	0	0	1	0	1	0	0	female	between 24 and 29	current employee	bachelor	Other social science subjects
+88	89	洋葱	原子弹	通信员	圆周率	热气球	动作片	远征军	酒芯糖	二手烟	牡丹	检测员	骑士	读后感	游船	信号塔	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	male	above 30	other	master	Arts and humanities
+89	90	洋葱	曲线	记者	比例	膨胀	视觉	跌落	糖衣	回收	成熟	人格	战局	阅读	鸳鸯	声音	1	1	1	1	1	1	0	0	0	0	0	0	1	1	0	male	between 24 and 29	current employee	bachelor	STEM
+90	91	洋葱	曲线	记者	央行	膨胀	电影	武侠	糖衣	吸烟	豆蔻	直尺	谋士	阅读	鸳鸯	回音	1	1	1	0	1	0	0	0	1	1	1	0	1	1	1	female	unknown	current graduate	bachelor	Other social science subjects
+91	92	洋葱	曲线	记者	比例	上升	视觉	战场	糖果	吸烟	花朵	尺子	将军	思考	吵架	回音	1	1	1	1	0	1	0	1	1	1	1	1	1	0	1	male	below 23	current graduate	bachelor	Programme subject
+92	93	洋葱	曲线	记者	金融	下降	恐怖片	逃亡者	可乐	香烟	豆蔻	尺子	将军	阅读	鸳鸯	回声	1	1	1	0	0	0	0	0	1	1	1	1	1	1	1	female	between 24 and 29	other	bachelor	Other social science subjects
+93	94	洋葱	曲线	记者	证券	膨胀	烟花	滑坡	糖衣	电子烟	玫瑰	三角板	丞相	阅读	鸳鸯	对歌	1	1	1	0	1	0	0	0	0	0	0	0	1	1	0	female	above 30	other	master	STEM
+94	95	洋葱	曲线	战地记者	黄金分割	仰望	特技	悬崖勒马	糖衣炮弹	香烟	花样年华	尺子	统帅	知识渊博	棒打鸳鸯	回音	1	1	0	1	0	0	0	0	1	0	1	0	0	0	1	female	above 30	other	bachelor	STEM
+95	96	洋葱	曲线	现场	斤两	爆破	视觉	极限	泡泡糖	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	回声	1	1	0	0	0	1	0	0	1	1	1	1	1	1	1	female	above 30	current employee	bachelor	Other social science subjects
+96	97	农药	科学家	通讯员	美联储	膨胀	强光	狩猎	爆米花	香烟	豆蔻	量尺	将帅	阅读	逼婚	回音	0	0	0	0	1	0	0	0	1	1	0	0	1	0	1	male	above 30	other	bachelor	STEM
+97	98	洋葱		记者	黄金比例	傲气	动作片	俯冲	糖衣炮	二手烟	圣女果	尺子	将军	认知	鸳鸯	回声	1	0	1	0	0	0	0	0	0	0	1	1	0	1	1	female	unknown	current employee	bachelor	Arts and humanities
+98	99	洋葱	曲线	记者	经济学	升天	战争片	驯马师	汽水	焦虑	豆蔻	直尺	元帅	小说家	鸳鸯	回音	1	1	1	0	0	0	0	0	0	1	1	0	0	1	1	female	between 24 and 29	other	bachelor	STEM
+99	100	洋葱	曲线	记者	分割	膨胀	视觉	高耸	糖衣	香烟	豆蔻	标尺	将军	写作	鸳鸯	回音	1	1	1	0	1	1	0	0	1	1	0	1	0	1	1	female	above 30	other	master	Other social science subjects
+100	101	山葵	曲线	记者	经济	膨胀	视觉	悬崖	糖果	香烟	鲜花	直尺	将军	阅读	鸳鸯	回音	0	1	1	0	1	1	1	1	1	0	1	1	1	1	1	male	below 23	current graduate	bachelor	Programme subject
+101	102	洋葱	理想	记者	金融	鼓吹	烟花	冲锋	药丸	吸烟	园丁	标杆	策略	考研	鸳鸯	回声	1	0	1	0	0	0	0	0	1	0	0	0	0	1	1	female	above 30	other	bachelor	Other social science subjects
+102	103	洋葱	曲线	记者	比例	避孕套	视觉	驾驶	糖果	香烟	花朵	三角板	将军	阅读	鸳鸯	回音	1	1	1	1	0	1	0	1	1	1	0	1	1	1	1	male	between 24 and 29	other	bachelor	STEM
+103	104	洋葱	圆形	记者	交易	膨胀	电影	速度	战争	吸烟	豆蔻	尺子	指挥官	眼镜	混乱	山歌	1	0	1	0	1	0	0	0	1	1	1	0	0	0	0	female	unknown	other	bachelor	Arts and humanities
+104	105	洋葱	曲线	记者	价值	膨胀	刺激	悬崖	糖弹	吸烟	青春	量尺	士兵	思考	鸳鸯	回音	1	1	1	0	1	0	1	0	1	0	0	0	1	1	1	female	above 30	other	master	STEM
+105	106	洋葱	导弹	记者	比例	胸部	视觉	悬崖	糖衣	香烟	豆蔻	尺子	将军	学习	鸳鸯	回音	1	0	1	1	0	1	1	0	1	1	1	1	0	1	1	female	below 23	current graduate	bachelor	STEM
+106	107	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖果	香烟	豆蔻	尺子	将军	阅读	鸳鸯	回音	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	male	above 30	current employee	master	STEM
+107	108	洋葱	曲线	记者	分割	吹牛	视觉	悬崖	糖果	香烟	豆蔻	标尺	将军	阅读	鸳鸯	望远镜	1	1	1	0	0	1	1	1	1	1	0	1	1	1	0	female	between 24 and 29	current employee	bachelor	Programme subject
+108	109	洋葱	曲线	记者	比例	膨胀	视觉	飞驰	糖衣	香烟	豆蔻	量角器	将军	阅读	鸳鸯	回声	1	1	1	1	1	1	0	0	1	1	0	1	1	1	1	female	above 30	other	bachelor	Other social science subjects
+109	110	洋葱	曲线	记者	国旗	膨胀	视觉	探险	蜂蜜	吸烟	杨柳	尺子	大将	阅读	鸳鸯	回音	1	1	1	0	1	1	1	0	1	0	1	0	1	1	1	male	between 24 and 29	current employee	bachelor	Arts and humanities
+110	111	洋葱	曲线	记者	时间	膨胀	视觉	悬崖	糖衣	香烟	青春	尺子	将军	阅读	鸳鸯	回声	1	1	1	0	1	1	1	0	1	0	1	1	1	1	1	female	above 30	current employee	bachelor	Other social science subjects
+111	112	洋葱	曲线	记者	比例	膨胀	闪现	悬崖	糖果	香烟	青葱	直尺	将军	思考	鸳鸯	回音	1	1	1	1	1	0	1	1	1	0	1	1	1	1	1	female	between 24 and 29	current employee	bachelor	STEM
+112	113	洋葱	昭君	记者	金融业	庆祝	3D电影	放牧	汽水	吸烟	豆蔻	尺子	炮兵	阅读	鸳鸯	回音壁	1	0	1	0	0	0	0	0	1	1	1	0	1	1	0	female	between 24 and 29	current employee	bachelor	Arts and humanities
+113	114	洋葱	曲线	记者	分割	膨胀	特效	奔腾	蜂蜜	抽烟	青葱	直尺	将军	眼镜	鸳鸯	回声	1	1	1	0	1	0	0	0	1	0	1	1	0	1	1	female	above 30	current employee	bachelor	Arts and humanities
+114	115	洋葱	宰相	记者	货币	冠军	烟花	悬崖	糖衣弹	吸烟	花季女	三角板	将军	阅读	鸳鸯	山歌	1	0	1	0	0	0	1	0	1	0	0	1	1	1	0	female	between 24 and 29	other	bachelor	Other social science subjects
+115	116	洋葱	正弦	记者	比例	氢气	快闪	悬崖	黄桃	瓦斯	豆蔻	尺子	将军	阅读	鸳鸯	山歌	1	0	1	1	0	0	1	0	0	1	1	1	1	1	0	female	unknown	current graduate	bachelor	Other social science subjects
+116	117	洋葱	科学家	报道员	经济师	梦想	图片	攀爬	奉承话	香烟	豆蔻	测谎仪	将军	阅读	鸳鸯	回声	1	0	0	0	0	0	0	0	1	1	0	1	1	1	1	female	above 30	current employee	bachelor	Other social science subjects
+117	118	洋葱	圆周率	通讯兵	储备金	求婚	电影	游牧者	罐头	烟瘾	豆蔻	直尺	将帅	研究者	鸳鸯	回音壁	1	0	0	0	0	0	0	0	0	1	1	0	0	1	0	female	above 30	current employee	bachelor	Other social science subjects
+118	119	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖果	吸烟	花朵	直尺	将军	阅读	出轨	回音壁	1	1	1	1	1	1	1	1	1	1	1	1	1	0	0	female	between 24 and 29	other	bachelor	STEM
+119	120	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖果	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	回音	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	female	between 24 and 29	other	bachelor	Arts and humanities
+120	121	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖衣	吸烟	豆蔻	量尺	将军	阅读	鸳鸯	回音	1	1	1	1	1	1	1	0	1	1	0	1	1	1	1	female	between 24 and 29	current employee	bachelor	Arts and humanities
+121	122	洋葱	理想	记者	银行	探险	电影	高卢人	蜂蜜	香烟	豆蔻	格尺	将军	阅读	鸳鸯	卫星	1	0	1	0	0	0	0	0	1	1	0	1	1	1	0	female	above 30	current employee	master	Other social science subjects
+122	123	洋葱	曲线	记者	比例	充满	视觉	悬崖	糖果	吸烟	豆蔻	直尺	将军	学习	鸳鸯	回声	1	1	1	1	0	1	1	1	1	1	1	1	0	1	1	female	above 30	current employee	bachelor	Programme subject
+123	124	洋葱	策略 	记者	财富	飞翔 	电影	巍峨	碳酸	烟草	芬芳 	 科学	对弈	阅读	配对	信鸽 	1	0	1	1	0	0	0	0	1	0	0	0	1	0	0	female	above 30	other	master	Other social science subjects
+124	125	洋葱	数学	记者	经济学	膨胀	核爆炸	高海拔	蜂蜜罐	抽烟	豆蔻	标尺	将帅	阅读	迪士尼	回声	1	0	1	0	1	0	0	0	1	1	0	0	1	0	1	male	between 24 and 29	other	bachelor	STEM
+125	126	洋葱	曲线	记者	比例	膨胀	刺激	悬崖	糖果	气体	豆蔻	尺子	将军	阅读	鸳鸯	回音	1	1	1	1	1	0	1	1	0	1	1	1	1	1	1	female	between 24 and 29	other	master	Programme subject
+126	127	芥末	曲线	记者	金价	公主	VR	奔腾	贿赂	吸烟	梅花	特质	战略家	独处	高尔夫	爱情	0	1	1	0	0	0	0	0	1	0	0	0	0	0	0	female	between 24 and 29	current employee	bachelor	Other social science subjects
+127	128	洋葱	曲线	记者	比例	膨胀	特效	奔腾	糖衣	抽烟	豆蔻	尺子	将军	阅读	鸳鸯	回声	1	1	1	1	1	0	0	0	1	1	1	1	1	1	1	female	above 30	current employee	bachelor	STEM
+128	129	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖衣	气体	豆蔻	尺子	将军	阅读	鸳鸯	回音	1	1	1	1	1	1	1	0	0	1	1	1	1	1	1	female	between 24 and 29	current employee	master	STEM
+129	130	洋葱	女军师	记者	比例尺	野心	电影	赛车	谎言	氮气	昙花	尺子	将军	催眠	悲剧	辐射	1	0	1	0	0	0	0	0	0	0	1	1	0	0	0	female	between 24 and 29	other	bachelor	Arts and humanities
+130	131	圆葱	曲线	记者	价格	上升	视觉	荒原	糖果	吸烟	豆蔻	人格	策略	学习	鸳鸯	回音	0	1	1	0	0	1	0	1	1	1	0	0	0	1	1	female	above 30	other	bachelor	Arts and humanities
+131	132	洋葱 	曲线	记者	交易员	膨胀	电影	救援	糖衣	煤气罐	豆蔻	格尺	将军	阅读	鸳鸯	超声波	1	1	1	0	1	0	0	0	0	1	0	1	1	1	0	female	above 30	other	master	Other social science subjects
+132	133	洋葱		记者	股票	小丑	护目镜	马鞍	樱桃	香烟	豆蔻	尺子	将军	学者	鸳鸯	雷达	1	0	1	0	0	0	0	0	1	1	1	1	0	1	0	female	unknown	other	bachelor	Arts and humanities
+133	134	洋葱	曲线	记者	比例	爆棚	视觉	悬崖	糖果	香烟	豆蔻	尺子	将军	阅读	嘴硬	声音	1	1	1	1	0	1	1	1	1	1	1	1	1	0	0	female	between 24 and 29	other	bachelor	Other social science subjects
+134	135	洋葱 大葱 大蒜	曲线 	记者 报道 	金融 股市 监管	泄气 爆发 上升	眼镜 虚拟现实 电影	骑马 跨越 山涧	糖衣炮弹 跳跳糖 	吸烟 迁怒	护肤品 花艺 诗歌	格尺 	规则 战争 谋略	阅读 催眠 熬夜	孝子 分手 	回音 	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	female	above 30	other	bachelor	Other social science subjects
+135	136	洋葱	形象	记者	金融	帝王	烟花	挑战	糖衣	吸烟	豆蔻	垃圾站	边界	阅读	农家乐	呐喊	1	0	1	0	0	0	0	0	1	1	0	0	1	0	0	male	unknown	current graduate	bachelor	STEM
+136	137	洋葱	曲线	记者	利益	膨胀	视觉	勇士	糖衣	二手烟	豆蔻	三角尺	士官	阅读	教育	回音	1	1	1	0	1	1	0	0	0	1	0	0	1	0	1	male	between 24 and 29	other	bachelor	Programme subject
+137	138	洋葱	曲线	记者	比例	膨胀	视觉	取经	糖果	吸烟	豆蔻	标尺	将军	阅读	鸳鸯	回音	1	1	1	1	1	1	0	1	1	1	0	1	1	1	1	female	above 30	other	bachelor	STEM
+138	139	洋葱	曲线	记者	金字塔	小丑	美瞳	山岭	汽水	二氧化碳	窈窕	直尺	将军	哲学家	暴力	回声	1	1	1	0	0	0	0	0	0	0	1	1	0	0	1	female	below 23	current graduate	bachelor	Other social science subjects
+139	140	香椿	曲线	记者	比例	膨胀	视觉	越野	汽水	香烟	豆蔻	直尺	将军	思考	鸳鸯	声波	0	1	1	1	1	1	0	0	1	1	1	1	1	1	0	female	unknown	current graduate	bachelor	Other social science subjects
+140	141	洋葱	数学家	记者	汇率	破灭	特效	战争	榴莲	吸烟	美好	研究员	司令	自律	养殖场	呼唤	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	female	unknown	current graduate	bachelor	Programme subject
+141	142	洋葱	曲线	采访	比例	膨胀	视觉	险峻	糖衣	吸烟	豆蔻	直尺	将军	阅读	鸳鸯	回声	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	male	between 24 and 29	other	bachelor	Arts and humanities
+142	143	大蒜	曲线	记者	金融	膨胀	视觉	骑马	蜜糖	吸烟	豆蔻	尺子	将军	思考	烤鸭	回声	0	1	1	0	1	1	0	1	1	1	1	1	1	0	1	female	between 24 and 29	current employee	bachelor	STEM
+143	144	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	蜜糖	吸烟	豆蔻	尺子	将帅	阅读	鸳鸯	回音	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	female	between 24 and 29	current employee	bachelor	Programme subject
+144	145	洋葱	曲线	记者	完美比	膨胀	电影	牧马人	糖果	香烟	蒹葭	尺子	将军	阅读	鸳鸯	唱山歌	1	1	1	0	1	0	0	1	1	0	1	1	1	1	0	female	unknown	other	bachelor	Arts and humanities
+145	146	洋葱	曲线	记者	比率	膨胀	电影	翻落	糖衣	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	回音	1	1	1	0	1	0	0	0	1	1	1	1	1	1	1	male	below 23	current graduate	bachelor	STEM
+146	147	洋葱	曲线	记者	比例	膨胀	视觉	马后炮	糖衣	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	回音	1	1	1	1	1	1	0	0	1	1	1	1	1	1	1	female	between 24 and 29	other	bachelor	Arts and humanities
+147	148	洋葱	曲线	记者	比例	吹牛	视觉	悬崖	糖衣	吸烟	豆蔻	直尺	将军	阅读	鸳鸯	回声	1	1	1	1	0	1	1	0	1	1	1	1	1	1	1	female	between 24 and 29	other	bachelor	STEM
+148	149	洋葱	曲线	记者	黄金比	膨胀	视觉	勒马	糖衣	吸烟	豆蔻	直尺	谋略	阅读	鸳鸯	回音	1	1	1	0	1	1	0	0	1	1	1	1	1	1	1	male	between 24 and 29	other	bachelor	Other social science subjects
+149	150	洋葱	曲线	记者	汇率	膨胀	视觉	战场	糖衣	物质	豆蔻	尺子	将军	阅读	鸳鸯	声波	1	1	1	0	1	1	0	0	0	1	1	1	1	1	0	male	between 24 and 29	other	bachelor	Arts and humanities
+150	151	洋葱	理想	记者	货币	膨胀	特效	远征	糖果	吸烟	花朵	尺子	将帅	学习	争吵	距离	1	0	1	0	1	0	0	1	1	1	1	0	0	0	0	female	unknown	current graduate	bachelor	Programme subject
+151	152	洋葱	曲线	记者	比例	膨胀	视觉	征服	糖衣	香烟	豆蔻	直尺	将军	阅读	鸳鸯	回音	1	1	1	1	1	1	0	0	1	1	1	1	1	1	1	female	between 24 and 29	other	bachelor	Other social science subjects
+152	153	洋葱	曲线	记者	原则	爆炸	视觉	悬崖	糖果	香烟	豆蔻	品质	将军	学习	鸳鸯	回音	1	1	1	0	1	1	1	1	1	1	0	1	0	1	1	female	between 24 and 29	other	bachelor	Other social science subjects
+153	154	洋葱		记者	交易	放飞	科幻	悬崖	蜜糖	吸烟	花寇	尺子	将军	笔记	鸳鸯	回响	1	0	1	0	0	0	1	1	1	0	1	1	0	1	0	female	between 24 and 29	other	bachelor	STEM
+154	155	洋葱	曲线	记者	黄金比	生日	立体	悬崖	罐头	香烟	花朵	尺子	将帅	阅读	夫妻	回声	1	1	1	0	0	0	1	0	1	1	1	0	1	0	1	female	between 24 and 29	other	bachelor	Programme subject
+155	156	洋葱	理想	记者	买卖	膨胀	视觉	寒冷	饮料	吸烟	漂亮	性格	将军	学习	鞭策	无音	1	0	1	0	1	1	0	0	1	0	0	1	0	0	0	female	between 24 and 29	other	bachelor	Other social science subjects
+156	157	洋葱	曲线	记者	比例	膨胀	烟花	边塞	糖霜	香烟	豆蔻	直尺	将军	思考	鸳鸯	回声	1	1	1	1	1	0	0	0	1	1	1	1	1	1	1	female	between 24 and 29	other	master	Arts and humanities
+157	158	洋葱	曲线	记者	分割率	膨胀	屏幕	攀登	糖衣	抽烟	花朵	直尺	将军	阅读	鸳鸯	声波	1	1	1	0	1	0	0	0	1	1	1	1	1	1	0	female	above 30	current employee	bachelor	STEM
+158	159	洋葱	曲线	记者	分割率	膨胀	视觉	悬崖	糖衣	烟草	豆蔻	尺子	将军	阅读	游船	声波	1	1	1	0	1	1	1	0	1	1	1	1	1	0	0	male	between 24 and 29	other	bachelor	Programme subject
+159	160	农药	曲线	记者	比例	上升	视觉	悬崖	糖衣	香烟	豆蔻	直尺	将军	笔记	鸳鸯	回响	0	1	1	1	0	1	1	0	1	1	1	1	0	1	0	female	unknown	other	bachelor	Other social science subjects
+160	161	洋葱	曲线	记者		膨胀	视觉	悬崖	糖衣	抽烟	芳华	直尺	将军	阅读	鸳鸯	回音	1	1	1	0	1	1	1	0	1	0	1	1	1	1	1	female	unknown	current graduate	bachelor	Programme subject
+161	162	洋葱	曲线	记者	比例	放纵	视觉	野性	糖果	吸烟	花朵	直尺	军师	阅读	鸳鸯	回音	1	1	1	1	0	1	0	1	1	1	1	0	1	1	1	female	between 24 and 29	other	bachelor	Programme subject
+162	163	洋葱	曲线	记者	比例	膨胀	电影	边疆	蜂蜜	吸烟	芍药	尺子	将帅	阅读	训练	卫星	1	1	1	1	1	0	0	0	1	0	1	0	1	0	0	female	between 24 and 29	other	bachelor	Programme subject
+163	164	洋葱	曲线	记者	圆周率	破灭	动作片	训马	糖果	香烟	花朵	直尺	将军	阅读	鸳鸯	回声	1	1	1	0	0	0	0	1	1	1	1	1	1	1	1	female	below 23	current graduate	bachelor	Other social science subjects
+164	165	洋葱	数学家	记者	比例	膨胀	震惊	边塞	糖衣	香烟	豆蔻	尺子	将军	阅读	鸳鸯	信号塔	1	0	1	1	1	0	0	0	1	1	1	1	1	1	0	female	below 23	current graduate	bachelor	Other social science subjects
+165	166	洋葱	曲线	记者	比例	 	电影	伏击战	爆米花	吸烟	豆蔻	尺子	将军	作家	鸳鸯	回声	1	1	1	1	0	0	0	0	1	1	1	1	0	1	1	female	unknown	other	bachelor	STEM
+166	167	洋葱	曲线	记者	财务	阅兵	影院	悬崖	糖果	香烟	芍药	尺子	将军	阅读	公园	呐喊	1	1	1	1	0	0	1	1	1	0	1	1	1	0	0	female	below 23	current graduate	bachelor	Other social science subjects
+167	168	洋葱	曲线	记者	正无穷	幼儿	漫威	悬崖	维尼熊	吸烟	凌霄花	直尺	将军	笔记	公园	回音	1	1	1	0	0	0	1	0	1	0	1	1	0	0	1	female	between 24 and 29	other	bachelor	Arts and humanities
+168	169	洋葱	曲线	记者	比例	膨胀	特效	悬崖	蜜糖	吸烟	青葱	直尺	将领	阅读	成对	回声	1	1	1	1	1	0	1	1	1	0	1	0	1	0	1	male	between 24 and 29	other	bachelor	STEM
+169	170	洋葱	曲线	记者	分割线	膨胀	立体书	赛马	糖衣炮	二手烟	如花	塑料尺	指挥官	夜读	鸳鸯	回音	1	1	1	0	1	0	0	0	0	0	1	0	0	1	1	female	unknown	other	bachelor	Other social science subjects
+170	171	洋葱	曲线	记者	比例	膨胀	视觉	高原	糖衣	香烟	玫瑰	尺子	将军	阅读	鸳鸯	回音	1	1	1	1	1	1	0	0	1	0	1	1	1	1	1	female	between 24 and 29	other	bachelor	Other social science subjects
+171	172	洋葱	教育	记者	货币	眼睛	电影	高原	糖果	吸烟	芳华	尺子	将军	学习	鸳鸯	回声	1	0	1	0	0	0	0	1	1	0	1	1	0	1	1	male	above 30	current employee	bachelor	Other social science subjects
+172	173	洋葱	数学	打仗	黄金比	热气球	恐怖片	悬崖	榴莲	香烟	蒹葭	尺子	文人	阅读	鸳鸯	科技	1	0	0	0	0	0	1	0	1	0	1	0	1	1	0	female	below 23	current graduate	bachelor	Programme subject
+173	174	洋葱	知识	战报	金融	热气球	电影	勒马	糖果	抽烟	豆蔻	尺子	将军	精读	棒球	回音	1	0	0	0	0	0	0	1	1	1	1	1	0	0	1	female	unknown	other	bachelor	Programme subject
+174	175	洋葱	曲线	记者	分割点	膨胀	眼药水	悬崖	糖衣	香烟	蒹葭	尺子	将帅	阅读	鸳鸯	回音	1	1	1	0	1	0	1	0	1	0	1	0	1	1	1	male	unknown	current graduate	bachelor	Programme subject
+175	176	洋葱	曲线	记者	货币	膨胀	视觉	饮水	汽水	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	天眼	1	1	1	0	1	1	0	0	1	1	1	1	1	1	0	female	below 23	current graduate	bachelor	Programme subject
+176	177	洋葱	曲线	记者	比例	膨胀	视觉	飞驰	蜜糖	抽烟	韶华	尺子	将军	思考	吵闹	回声	1	1	1	1	1	1	0	1	1	0	1	1	1	0	1	female	below 23	current graduate	bachelor	Programme subject
+177	178	洋葱	曲线	记者	价格	膨胀	视觉	坠落	糖果	吸烟	花样	尺子	将军	学习	鸳鸯	回音	1	1	1	0	1	1	0	1	1	0	1	1	0	1	1	male	between 24 and 29	other	bachelor	Programme subject
+178	179	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖衣	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	回响	1	1	1	1	1	1	1	0	1	1	1	1	1	1	0	female	between 24 and 29	current employee	bachelor	Arts and humanities
+179	180	洋葱	曲线	记者	时间	膨胀	视觉	悬崖	糖果	抽烟	芳华	尺子	将帅	阅读	鸳鸯	回声	1	1	1	0	1	1	1	1	1	0	1	0	1	1	1	female	unknown	other	bachelor	Arts and humanities
+180	181	洋葱	曲线	记者	比例	破碎	视觉	攀登	糖衣	吸烟	豆蔻	直尺	将军	学习	教育	回音	1	1	1	1	0	1	0	0	1	1	1	1	0	0	1	female	unknown	other	bachelor	Programme subject
+181	182	洋葱	教授	记者	智商	深渊	电影	挑战	革命	香烟	时间	尺子	武官	阅读		烽火台	1	0	1	0	0	0	0	0	1	0	1	0	1	0	0	female	above 30	current employee	master	Other social science subjects
+182	183	洋葱	巾帼	记者	分割率	膨胀	视觉	巍峨	糖衣	香烟	豆蔻	直尺	将军	阅读	鸳鸯	回音	1	0	1	0	1	1	0	0	1	1	1	1	1	1	1	female	between 24 and 29	other	bachelor	Other social science subjects
+183	184	洋葱	曲线	记者	黄金比	膨胀	视崖	飞马	糖衣	二手烟	豆蔻	直角	将军	阅读	鸳鸯	回声	1	1	1	0	1	0	0	0	0	1	0	1	1	1	1	male	below 23	current graduate	bachelor	STEM
+184	185	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖衣	吸烟	鲜花	直尺	将军	阅读	鸳鸯	回声	1	1	1	1	1	1	1	0	1	0	1	1	1	1	1	female	between 24 and 29	other	bachelor	STEM
+185	186	洋葱	出生率	话筒	人民币	求婚	电影	将军	棒棒糖	吸烟	豆蔻	卷尺	国王	书架	鸭舌帽	鸽子	1	0	0	0	0	0	0	0	1	1	0	0	0	0	0	female	between 24 and 29	other	bachelor	Programme subject
+186	187	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖衣	吸烟	豆蔻	直尺	将军	阅读	打禽兽	回音	1	1	1	1	1	1	1	0	1	1	1	1	1	0	1	female	between 24 and 29	current employee	bachelor	STEM
+187	188	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖果	吸烟	花季	直尺	将军	阅读	鸳鸯	回音	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	female	unknown	other	bachelor	STEM
+188	189	洋葱	科学	记者	财政部	膨胀	电影院	哨所	热量	香烟	豆蔻	尺子	统帅	阅读	鸳鸯	回声	1	0	1	0	1	0	0	0	1	1	1	0	1	1	1	female	unknown	other	bachelor	Arts and humanities
+189	190	洋葱	抛物线	记者	圆周率	膨胀	爆炸	放牧	糖果	吸烟	芙蓉	直尺	将相	夜猫子	鸳鸯	天眼	1	0	1	0	1	0	0	1	1	0	1	0	0	1	0	male	between 24 and 29	current employee	bachelor	Programme subject
+190	191	洋葱	曲线	记者	时间	膨胀	撞色	悬崖	糖果	气罐	豆蔻	尺子	士卒	阅读	鸳鸯	回音	1	1	1	0	1	0	1	1	0	1	1	0	1	1	1	female	above 30	current employee	bachelor	Other social science subjects
+191	192	洋葱	曲线	记者	充分	脆弱	刺激	旅行	糖衣	污染	青葱	环保	博弈	爱好	鸳鸯	回声	1	1	1	0	0	0	0	0	0	0	0	0	0	1	1	female	between 24 and 29	current employee	bachelor	Programme subject
+192	193	洋葱	S曲线	记者	经纪人	击穿	电影	奔驰	糖果	吸烟	发育	标尺	将军	学习	棒球赛	回音	1	0	1	0	0	0	0	1	1	0	0	1	0	0	1	female	above 30	current employee	bachelor	STEM
+193	194	洋葱	曲线	记者	黄金比	膨胀	视觉	骑行	糖衣	打火机	青葱	直尺	上马	研读	鸳鸯	蝙蝠	1	1	1	0	1	1	0	0	0	0	1	0	0	1	0	female	unknown	other	bachelor	Other social science subjects
+194	195	洋葱、芥末、酸豆角	将军、厨娘、数学	记者、伤员、话筒	完美、比例、身材	歌手、游乐园、破灭	靶子、犯罪现场、影视	英雄、冒险、驰骋	糖衣炮弹、压缩饼干	烟草、成年、解脱	豆蔻、鲜花、百合	尺子、公平秤	将军、相士	思想、深夜	公园、划船	回音、声波	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	female	unknown	other	bachelor	Other social science subjects
+195	196	洋葱	抛物线	记者			焰火	勒马	存钱罐	香烟	豆蔻	尺子	将相	知网	鸳鸯		1	0	1	0	0	0	0	0	1	1	1	0	0	1	0	female	between 24 and 29	current employee	bachelor	Arts and humanities
+196	197	洋葱	理想	社媒	完美	飞升	动作片	长征	果糖	二手烟	虞美人	尺子	谋士	考研	鸳鸯	沟通	1	0	0	0	0	0	0	0	0	0	1	0	0	1	0	female	unknown	other	bachelor	Other social science subjects
+197	198	洋葱	理想	记者	储备金	膨胀	爆破	挑战赛	伪装	香烟	花朵	限塑令	将军	学者	吵架	信号塔	1	0	1	0	1	0	0	0	1	1	0	1	0	0	0	female	above 30	current employee	bachelor	Arts and humanities
+198	199	芥末	央行	记者	美元	冠军	电影	战争	糖衣弹	抽烟	青春	直尺	职场	学习	鸳鸯	回音	0	0	1	0	0	0	0	0	1	0	1	0	0	1	1	female	above 30	current employee	bachelor	STEM
+199	200	洋葱	曲线	记者	分割律	红色	视觉	骑行	糖衣	香烟	化妆品	直尺	将军	阅读	嘴硬	声波	1	1	1	0	0	1	0	0	1	0	1	1	1	0	0	male	unknown	current graduate	bachelor	Programme subject
+200	201	洋葱 	 知识	记者	价格	膨胀	视觉	跨越	糖衣	吸烟	鲜花	尺子	经验	阅读	鸳鸯	路程	1	0	1	0	1	1	0	0	1	0	1	0	1	1	0	female	between 24 and 29	other	bachelor	STEM
+201	202	洋葱	曲线	记者	比例	避孕套	立体	草原	蜂窝	香烟	豆蔻	直尺	炮兵	阅读	棒球帽	信号塔	1	1	1	1	0	0	0	0	1	1	1	0	1	0	0	female	above 30	current employee	bachelor	STEM
+202	203	洋葱	曲线	记者	比例	膨胀	视觉	征服	糖衣	抽烟	豆蔻		将军	阅读	鸳鸯	回响	1	1	1	1	1	1	0	0	1	1	0	1	1	1	0	male	unknown	other	bachelor	Other social science subjects
+203	204	洋葱	曲线	记者	银行	膨胀	视觉	爬山	糖衣	香烟	豆蔻	尺子	将军	阅读	鸳鸯	回音	1	1	1	0	1	1	0	0	1	1	1	1	1	1	1	female	above 30	current employee	bachelor	STEM
+204	205	洋葱	数学	战争	身材	贪婪	震撼	悬崖	糖果	香烟	少女	直尺	将军	阅读	工具	蝙蝠	1	0	0	0	0	0	1	1	1	0	1	1	1	0	0	male	between 24 and 29	other	bachelor	Other social science subjects
+205	206	洋葱	理论	记者	比例	膨胀	特效	特技	糖衣片	香烟	豆蔻	尺子	将军	学习	鸳鸯	回音	1	0	1	1	1	0	0	0	1	1	1	1	0	1	1	male	above 30	current employee	bachelor	STEM
+206	207	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖果	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	回声	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	female	above 30	current employee	bachelor	Arts and humanities
+207	208	洋葱	美人计	记者	国库	膨胀	流星	悬崖	糖衣炮弹	二手烟	豆蔻	卷尺	将军	钻研	棒打鸳鸯	回声	1	0	1	0	1	0	1	0	0	1	0	1	0	0	1	female	above 30	current employee	bachelor	Other social science subjects
+208	209	洋葱	股票	记者	圆周率	飞艇	射击	赛马场	糖果	抽烟	豆蔻	直尺	将军	书签	鸳鸯	回音	1	0	1	0	0	0	0	1	1	1	1	1	0	1	1	male	between 24 and 29	current employee	bachelor	STEM
+209	210	洋葱	数学家	记者	价格	诱惑	刺激	飞驰	糖衣	吸烟	珍贵	三角板	将军	阅读	划船	信号塔	1	0	1	0	0	0	0	0	1	0	0	1	1	0	0	female	unknown	other	bachelor	Other social science subjects
+210	211	洋葱	曲线	记者	分割	上升	视觉	悬崖	跳跳糖	香烟	豆蔻	直尺	军事	阅读	鸳鸯	回声	1	1	1	0	0	1	1	0	1	1	1	0	1	1	1	female	below 23	current graduate	bachelor	Other social science subjects
+211	212	洋葱	曲线	战地宣传	比例	膨胀	视觉冲击	悬崖勒马	糖衣炮弹	二手烟	豆蔻年华	直尺	兵马		棒打鸳鸯	回声	1	1	0	1	1	0	0	0	0	0	1	0	0	0	1	female	above 30	other	bachelor	Other social science subjects
+212	213	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖衣	烟草	豆蔻	直尺	将军	阅读	鸳鸯	回声	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	female	below 23	current graduate	bachelor	Arts and humanities
+213	214	洋葱	曲线	记者	比例	小丑	色彩	悬崖	汽水	香烟	鲜花	尺子	将军	阅读	鸳鸯	回响	1	1	1	1	0	0	1	0	1	0	1	1	1	1	0	female	between 24 and 29	current employee	bachelor	Arts and humanities
+214	215	洋葱 大蒜 大葱	曲线	记者 报道 危机 人民	完美曲线	奢侈品 危险 	电影 血腥 频闪 光线	飞跃 	糖果	烟草 吸烟 进口垃圾	青春 娇艳	尺子 	将军 将士 军棋	阅读  学习	棒打鸳鸯 宁拆十座庙不毁一桩婚	回响 传音 声波 	0	1	0	0	0	0	0	1	0	0	1	0	0	0	0	male	between 24 and 29	other	bachelor	Other social science subjects
+215	216	洋葱	曲线	记者	分割点	膨胀	视觉	悬崖	糖果	吸烟	豆蔻	直尺	将军	阅读	鸳鸯	回声	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	female	between 24 and 29	current employee	master	Other social science subjects
+216	217	洋葱	曲线	记者	经济	释放	视觉	悬崖	糖衣	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	回声	1	1	1	0	0	1	1	0	1	1	1	1	1	1	1	male	below 23	current graduate	bachelor	STEM
+217	218	洋葱	曲线	记者	黄金比	膨胀	痛哭	悬崖	糖衣	香烟	凋零	直尺	将相	阅读	戏耍	回响	1	1	1	0	1	0	1	0	1	0	1	0	1	0	0	female	unknown	current employee	bachelor	Programme subject
+218	219	洋葱	数学	记者	分割比	充满	爆炸	悬崖	糖衣	吸烟	豆蔻	量杯	将军	阅读	鸳鸯	蝙蝠	1	0	1	0	0	0	1	0	1	1	0	1	1	1	0	female	unknown	other	bachelor	Other social science subjects
+219	220	辣椒	曲线	记者	比例	膨胀	闪烁	急弯	糖衣	香烟	豆蔻	尺子	元帅	阅读	成群	回音壁	0	1	1	1	1	0	0	0	1	1	1	0	1	0	0	male	between 24 and 29	current employee	bachelor	STEM
+220	221	洋葱	曲线	记者	比例	充满	视觉	攀登	糖衣	气体	青葱	尺子	宰相	阅读	鸳鸯	回音	1	1	1	1	0	1	0	0	0	0	1	0	1	1	1	female	below 23	current graduate	bachelor	Arts and humanities
+221	222	洋葱	曲线	记者	九头身	膨胀	爆破	烽火台	糖衣	吸烟	豆蔻	格尺	将军	阅读	鸳鸯	回声	1	1	1	0	1	0	0	0	1	1	0	1	1	1	1	female	between 24 and 29	other	bachelor	Other social science subjects
+222	223	洋葱	科学家	记者	金融	航天员	电影	骑兵	蜜蜂	吸烟	豆蔻	直尺	将军	阅读	鸳鸯	回声	1	0	1	0	0	0	0	0	1	1	1	1	1	1	1	female	above 30	current employee	bachelor	Other social science subjects
+223	224	洋葱	曲线	记者	达尔文	儿童	戏剧	警戒线	炮弹糖	二手烟	少女	直尺	将军	眼镜	父母	呐喊	1	1	1	0	0	0	0	0	0	0	1	1	0	0	0	female	between 24 and 29	current employee	bachelor	Other social science subjects
+224	225	洋葱	曲线	记者	长久	膨胀	视觉	悬崖	糖衣	差价	豆蔻	尺子	将军	阅读	鸳鸯	回音	1	1	1	0	1	1	1	0	0	1	1	1	1	1	1	female	unknown	other	bachelor	Other social science subjects
+225	226	洋葱	曲线	记者	金钱	红色	闪光	悬崖	糖衣	香烟	豆蔻	直尺	将军	阅读	鸳鸯	声波	1	1	1	0	0	0	1	0	1	1	1	1	1	1	0	male	between 24 and 29	current employee	bachelor	STEM
+226	227	洋葱	曲线	记者	比例	充满	眼药水	取经	糖衣	香烟	芙蓉	直尺	元帅	学习	打闹	回声	1	1	1	1	0	0	0	0	1	0	1	0	0	0	1	male	unknown	other	bachelor	STEM
+227	228	洋葱	曲线	记者	比例	膨胀	视觉	运输	糖衣	吸烟	青春	直尺	将军	阅读	鸳鸯	回音	1	1	1	1	1	1	0	0	1	0	1	1	1	1	1	female	unknown	other	bachelor	Programme subject
+228	229	芥末	曲线	记者	比例	膨胀	视觉	峻岭	糖衣	香烟	豆蔻	直尺	将军	思考	鸳鸯	信号	0	1	1	1	1	1	0	0	1	1	1	1	1	1	0	male	between 24 and 29	other	bachelor	STEM
+229	230	洋葱，	曲线	记者	0.618	膨胀，吹牛皮，	视觉，3D电影	驰骋，陡峭	跳跳糖，糖罐	吸烟，健康	昙花，年龄，年轮，纹路	直角尺，水平仪	军队，马匹	阅读，思维，	树林，湖边	回音，悬崖	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	female	unknown	current graduate	bachelor	STEM
+230	231	洋葱	曲线	记者	比例	放飞	视觉	悬崖	糖衣	吸烟	豆蔻	直尺	军师	阅读	鸳鸯	回声	1	1	1	1	0	1	1	0	1	1	1	0	1	1	1	female	between 24 and 29	current employee	bachelor	STEM
+231	232	洋葱	曲线	记者	比例	膨胀	视觉	飞跃	糖果	气体	花样	尺子	将军	阅读	帽子	回声	1	1	1	1	1	1	0	1	0	0	1	1	1	0	1	female	between 24 and 29	current employee	bachelor	Other social science subjects
+232	233	洋葱	曲线	记者	比例	膨胀	视觉	险峻	糖果	香烟	豆蔻	尺子	将军	阅读	鸳鸯	回声	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	female	between 24 and 29	current employee	bachelor	STEM
+233	234	洋葱	曲线	记者	价格	射击	视觉	悬崖	糖果	香烟	豆蔻	刻度尺	元帅	阅读	早恋	回声	1	1	1	0	0	1	1	1	1	1	1	0	1	0	1	female	between 24 and 29	other	bachelor	Programme subject
+234	235	洋葱	曲线	记者	比例	告白	视觉	悬崖	糖衣	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	回音	1	1	1	1	0	1	1	0	1	1	1	1	1	1	1	female	below 23	current graduate	bachelor	Other social science subjects
+235	236	辣椒	曲线	记者	财政	天空	视觉	悬崖	糖衣	二手烟	青葱	教尺	元帅	阅读	鸳鸯	回声	0	1	1	0	0	1	1	0	0	0	0	0	1	1	1	male	below 23	current graduate	bachelor	STEM
+236	237	洋葱	曲线	记者	分割率	膨胀	电影	面临	糖衣	烟草	豆蔻	直尺	将军	阅读	鸳鸯	回音	1	1	1	0	1	0	0	0	1	1	1	1	1	1	1	female	below 23	current graduate	bachelor	Other social science subjects
+237	238	洋葱	曲线	记者	比例	避孕套	视觉	牧民	糖果	香烟	鲜花	尺子	将军	阅读	鸳鸯	回声	1	1	1	1	0	1	0	1	1	0	1	1	1	1	1	male	between 24 and 29	current employee	bachelor	Other social science subjects
+238	239	洋葱	曲线	记者	比例	膨胀	视觉	奔驰	糖衣	吸烟	豆蔻	标尺	将军	阅读	鸳鸯	声音	1	1	1	1	1	1	0	0	1	1	0	1	1	1	0	female	between 24 and 29	other	bachelor	STEM
+239	240	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖衣	吸烟	豆蔻	尺子	将军	阅读	头像	条件	1	1	1	1	1	1	1	0	1	1	1	1	1	0	0	female	between 24 and 29	other	bachelor	Other social science subjects
+240	241	洋葱	曲线	记者	经济	膨胀	视觉	悬崖	糖果	香烟	花朵	直尺	将军	睡眠	鸳鸯	呐喊	1	1	1	0	1	1	1	1	1	1	1	1	0	1	0	female	unknown	other	bachelor	Arts and humanities
+241	242	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	蜜糖	吸烟	豆蔻	尺子	将军	阅读	拆散	呐喊声	1	1	1	1	1	1	1	1	1	1	1	1	1	0	0	female	unknown	current employee	bachelor	Other social science subjects
+242	243	洋葱	理想	记者	比例	泄气	视觉	攀登	蜂蜜	煤气罐	豆蔻	直尺	将军	阅读	鸳鸯	回音	1	0	1	1	0	1	0	0	0	1	1	1	1	1	1	male	between 24 and 29	other	bachelor	Other social science subjects
+243	244	洋葱	英雄	记者	分割	膨胀	视觉	奔腾	蜂蜜	二手烟	豆蔻	直尺	将军	阅读	鸳鸯	回声	1	0	1	0	1	1	0	0	0	1	1	1	1	1	1	male	above 30	current employee	bachelor	Other social science subjects
+244	245	洋葱	曲线	记者	天枰	膨胀	视觉	峡谷	糖衣炮弹	吸烟	花样年华	直尺	将军	阅读	棒打鸳鸯	飞鸽传书	1	1	1	0	1	1	0	0	1	0	1	1	1	0	0	female	above 30	current employee	bachelor	Other social science subjects
+245	246	洋葱	曲线	记者	比例	膨胀	特效	悬崖	糖果	二手烟	花朵	直尺	将军	阅读	鸳鸯	回声	1	1	1	1	1	0	1	1	0	1	1	1	1	1	1	female	between 24 and 29	current employee	bachelor	Programme subject
+246	247	洋葱	数学家	记者	黄金比	升空	特效	探险	漂亮话	二手烟	化妆品	尺子	参谋	阅读	春游	回音	1	0	1	0	0	0	1	0	0	0	1	0	1	0	1	male	between 24 and 29	other	bachelor	Other social science subjects
+247	248	洋葱	钱钟书	记者 	比例	公主	电影	奔驰	糖果	烟草	林黛玉	测绘员	将军	图书馆	颐和园	唱山歌	1	0	1	1	0	0	0	1	1	0	0	1	0	0	0	female	between 24 and 29	current employee	bachelor	STEM
+248	249	辣椒	女教授	记者	经济	领奖	视觉效果	探险	恭维	吸烟	玫瑰	量杯	权术	学习力	同性恋	呐喊	0	0	1	0	0	0	1	0	1	0	0	0	0	0	0	female	above 30	current employee	bachelor	STEM
+249	250	洋葱	曲线	记者	比例	击破	视觉	运输	糖果	吸烟	成长	尺子	军棋	学习	鸳鸯	回声	1	1	1	1	0	1	0	1	1	0	1	0	0	1	1	female	between 24 and 29	current employee	bachelor	Other social science subjects
+250	251	洋葱	数学家	记者	金融	膨胀	电影	悬崖	蜂蜜	香烟	香氛	尺子	将帅	阅读	爱情	回音	1	0	1	0	1	0	1	0	1	0	1	0	1	0	1	female	above 30	current employee	bachelor	Arts and humanities
+251	252	洋葱	正弦曲线	记者	金融	膨胀	万花筒	奔驰	糖果	吸烟	豆蔻	量尺	将军	阅读	鸳鸯	回响	1	0	1	0	1	0	0	1	1	1	0	1	1	1	0	female	between 24 and 29	current employee	bachelor	Other social science subjects
+252	253	洋葱	曲线	记者	分割比	告白	三维	蜀道	糖衣	香烟	豆蔻	直尺	元帅	学习	鸳鸯	回声	1	1	1	0	0	0	0	0	1	1	1	0	0	1	1	male	unknown	other	bachelor	STEM
+253	254	洋葱	理想抱负	战地记者	货币价值	膨胀	眼球经济	悬崖勒马	口蜜腹剑	吸烟	豆蔻年华	尺子	将帅	阅读思考	乱点鸳鸯谱	回声	1	0	0	0	1	0	0	0	1	0	1	0	0	0	1	female	above 30	other	bachelor	Other social science subjects
+254	255	洋葱	曲线	记者	黄金分割	膨胀	视觉	飞跃	蜜糖	香烟	豆蔻	尺子	将军	阅读	鸳鸯	回声	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	male	above 30	current employee	bachelor	Arts and humanities
+255	256	洋葱	曲线	报道	比例	爆炸	视觉	刺激的	糖果	吸烟	豆蔻	品质	将军	阅读	天鹅	广阔	1	1	1	1	1	1	0	1	1	1	0	1	1	0	0	female	below 23	current graduate	bachelor	Programme subject
+256	257	洋葱	圆周率	记者	最优比	爆炸	太阳光	牧马人	小男孩	香烟	牡丹	直尺	棋盘	夜读	分手	雷达	1	0	1	0	1	0	0	0	1	0	1	0	0	0	0	male	above 30	current employee	bachelor	Other social science subjects
+257	258	洋葱	曲线	记者	经济	航天器	电影	悬崖	蜜糖	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	回声	1	1	1	0	0	0	1	1	1	1	1	1	1	1	1	male	unknown	current employee	bachelor	Other social science subjects
+258	259	洋葱	策略	记者	追求	梦想	烟花	安全	汽水	二手烟	豆蔻	尺子	将帅	浏览	鸳鸯	回声	1	0	1	0	0	0	0	0	0	1	1	0	0	1	1	female	unknown	other	bachelor	Programme subject
+259	260	洋葱	化学家	记者	期货	旅游	电影	飞驰	糖衣炮弹	吸烟	豆蔻	尺子	丢卒保车	阅读	游戏	回声	1	0	1	0	0	0	0	0	1	1	1	0	1	0	1	female	above 30	current employee	bachelor	Other social science subjects
+260	261	洋葱	曲线	记者	黄金比	孩子	惊讶	悬崖	蜜糖罐	香烟	豆蔻	直角尺	将军	冥想	鸳鸯	回声	1	1	1	0	0	0	1	0	1	1	0	1	0	1	1	male	unknown	current graduate	bachelor	Other social science subjects
+261	262	洋葱	曲线	记者	资金	膨胀	视觉	悬崖	糖果	吸烟	豆蔻	直尺	将帅	阅读	鸳鸯	回音	1	1	1	0	1	1	1	1	1	1	1	0	1	1	1	male	between 24 and 29	other	bachelor	Programme subject
+262	263	洋葱	曲线	记者	比例	飘起来	视觉	险境	糖果	吸烟	青春	信度	将军	阅读	鸳鸯	回音	1	1	1	1	0	1	0	1	1	0	0	1	1	1	1	female	below 23	current graduate	bachelor	STEM
+263	264	五官，感觉，新鲜	文章，作者，爱国	记者，媒体，政府	金融，财政，经济	适度，爆炸，膨胀	电影，视觉，	远游，驰骋，跋涉	迷惑性，糖衣，	烟草，释放，威胁	美妙，攀援，韵味	科学家，实验室，数据	策略，周旋，步步为营	阅读，自我成长，心境疗愈	分离，嬉戏，棒打鸳鸯	回音，音信，遥遥无期	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	female	between 24 and 29	other	bachelor	Other social science subjects
+264	265	洋葱	曲线	记者	股市	热气球	电影	赛马	糖衣	烟草	豆蔻	直尺	武将	阅读	按摩捶	卫星	1	1	1	0	0	0	0	0	1	1	1	0	1	0	0	female	below 23	current graduate	bachelor	STEM
+265	266	洋葱	核武器	记者	比例	膨胀	电影	战争	过年	香烟	豆蔻	尺子	军师	阅读	公园	回声	1	0	1	1	1	0	0	0	1	1	1	0	1	0	1	female	unknown	other	bachelor	Programme subject
+266	267	洋葱	曲线	记者	比例	膨胀	特效	骑兵	糖衣	香烟	豆蔻	尺子	元帅	思考	鸳鸯	回声	1	1	1	1	1	0	0	0	1	1	1	0	1	1	1	male	between 24 and 29	other	bachelor	STEM
+267	268	洋葱	头脑	记者	比例	膨胀	电影	战争	糖衣	吸烟	玫瑰	尺子	将军	思考	家禽	回音	1	0	1	1	1	0	0	0	1	0	1	1	1	0	1	female	between 24 and 29	current employee	bachelor	Arts and humanities
+268	269	洋葱	近代史	记者	银行	孩子	动作片	冒险	罐头	货车	豆蔻	尺子	人才	阅读	动物园	回音	1	0	1	0	0	0	1	0	0	1	1	0	1	0	1	female	between 24 and 29	other	bachelor	Other social science subjects
+269	270	洋葱	理想	记者	银行	飞翔	美景	平原	糖果	香烟	豆蔻	尺子	将军	阅读	家庭	声波	1	0	1	0	0	0	0	1	1	1	1	1	1	0	0	female	between 24 and 29	other	bachelor	Programme subject
+270	271	洋葱	英雄	记者	金字塔	膨胀	特效	威亚	捧杀	二手烟	花季	直尺	宰相	咖啡	鸳鸯	回音	1	0	1	0	1	0	0	0	0	0	1	0	0	1	1	female	below 23	current graduate	bachelor	Arts and humanities
+271	272	洋葱	曲线	记者	比例	情绪	视觉	悬崖	糖衣	香烟	花朵	尺子	军棋	思考	鸳鸯	回音	1	1	1	1	0	1	1	0	1	1	1	0	1	1	1	female	between 24 and 29	other	bachelor	Other social science subjects
+272	273	洋葱	知识	记者	身材	假胸	照片	运动	诱骗	香烟	豆蔻	尺子	汉朝	名著	鸳鸯	回音	1	0	1	0	0	0	0	0	1	1	1	0	0	1	1	male	below 23	current graduate	bachelor	Programme subject
+273	274	洋葱	巾帼英雄	记者	黄金分割比	目标	电影特效	高原	高糖食物	尾气	豆蔻	尺子	将相	阅读	棒打鸳鸯	蝙蝠	1	0	1	0	0	0	0	0	0	1	1	0	1	0	0	male	unknown	other	bachelor	Programme subject
+274	275	洋葱 大葱	两氢一弹 物理学家	记者 战地记者	金融 投资	欲壑难填 	传媒 虚拟现实	悬崖勒马 	糖衣炮弹	香烟 抽烟	鲜花 花朵	直尺 三角尺	谋划 幕僚 参谋	写作 作家	棒打鸳鸯	天文望远镜	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	female	between 24 and 29	other	bachelor	Arts and humanities
+275	276	大蒜	曲线	记者	银行	膨胀	电影	蛮夷	糖果	香烟	化妆品	直尺	将军	阅读	鸳鸯	回声	0	1	1	0	1	0	0	1	1	0	1	1	1	1	1	male	below 23	current graduate	bachelor	STEM
+276	277	洋葱	曲线	记者	比例	奖品	视觉	护具	糖果	香烟	豆蔻	直尺	将军	阅读	鸳鸯	雷达	1	1	1	1	0	1	0	1	1	1	1	1	1	1	0	male	unknown	other	bachelor	Programme subject
+277	278	洋葱	曲线	报道	比例	膨胀	视觉	奔驰	糖果	二手烟	花朵	尺子	丞相	阅读	嬉戏	信号塔	1	1	1	1	1	1	0	1	0	1	1	0	1	0	0	male	below 23	other	bachelor	STEM
+278	279	洋葱	核弹	记者	汇率	漂浮	爆炸	冒险家	酸糖果	吸烟	豆蔻	直尺	政委	阅读	被拆散	回声	1	0	1	0	0	0	0	0	1	1	1	0	1	0	1	female	below 23	current graduate	bachelor	Other social science subjects
+279	280	洋葱	人才	记者	比例	破灭	电影	修路	妥协	吸烟	玫瑰	直尺	谋略	阅读	拆散	山歌	1	0	1	1	0	0	0	0	1	0	1	1	1	0	0	female	between 24 and 29	other	bachelor	STEM
+280	281	洋葱	曲线	记者	比例	膨胀	震撼	悬崖	蜜糖	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	回声	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	female	unknown	other	bachelor	Programme subject
+281	282	洋葱	原子弹	记者	圆周率	奥运会	电影	游牧	跳跳糖	香烟	豆蔻	尺子	将军	阅读	郊游	超声波	1	0	1	0	0	0	0	0	1	1	1	1	1	0	0	female	above 30	current employee	master	Programme subject
+282	283	洋葱	曲线	实况	经济	膨胀	视觉	野马	糖衣	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	回音	1	1	0	0	1	1	0	0	1	1	1	1	1	1	1	female	below 23	current graduate	bachelor	Programme subject
+283	284	纸巾	标准	电报	经济学	比赛	艺术	自在	儿童	香烟	害羞	石膏	狡诈	阳光	单车	李白	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	male	between 24 and 29	current graduate	bachelor	Programme subject
+284	285	洋葱	曲线	记者	比例	膨胀	爆炸	悬崖	糖果	吸烟	豆蔻	直尺	将军	阅读	鸳鸯	回声	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	female	below 23	current graduate	bachelor	Programme subject
+285	286	洋葱	曲线	记者	圆周率	膨胀	痛哭	悬崖	空投	香烟	豆蔻	三角尺	将帅	吊书袋	鸳鸯	唱山歌	1	1	1	0	1	0	1	0	1	1	0	0	0	1	0	male	unknown	other	bachelor	STEM
+286	287	洋葱	曲线	记者	汇率	膨胀	视觉	险峻	糖衣	香烟	豆蔻	直尺	将军	阅读	鸳鸯	回音	1	1	1	0	1	1	0	0	1	1	1	1	1	1	1	female	below 23	current graduate	bachelor	Other social science subjects
+287	288	洋葱	曲线	记者	银行	冒险	电影	滑草	蜜糖	吸烟	豆蔻	尺子	将军	写作	孩子	邮局	1	1	1	0	0	0	0	1	1	1	1	1	0	0	0	female	between 24 and 29	other	bachelor	Arts and humanities
+288	289	洋葱	曲线	记者	比例	膨胀	望远镜	悬崖	糖水	吸烟	豆蔻	尺子	将军	阅读	孩子	烽火台	1	1	1	1	1	0	1	0	1	1	1	1	1	0	0	female	unknown	other	bachelor	Arts and humanities
+289	290	洋葱	数学家	记者	银行	膨胀	震撼	运输	糖衣弹	二手烟	豆蔻年华	塑料尺	筹谋	学习	鸳鸯	回声	1	0	1	0	1	0	0	0	0	0	1	0	0	1	1	female	above 30	other	bachelor	STEM
+290	291	洋葱	曲线	记者	比例	小丑	烟花	悬崖	糖果	香烟	豆蔻	尺子	将军	阅读	鸳鸯	回声	1	1	1	1	0	0	1	1	1	1	1	1	1	1	1	male	above 30	other	bachelor	STEM
+291	292	洋葱	曲线	记者	银行	膨胀	震撼	悬崖	糖衣	吸烟	豆蔻	直尺	将军	阅读	鸳鸯	回音	1	1	1	0	1	0	1	0	1	1	1	1	1	1	1	female	between 24 and 29	other	bachelor	Other social science subjects
+292	293	痛苦	技术	记者	货币	膨胀	视觉	冒险	毒药	香烟	美丽	圆尺	政治	思考	情绪	回应	0	0	1	0	1	1	1	0	1	0	0	0	1	0	0	male	between 24 and 29	other	bachelor	STEM
+293	294	洋葱	曲线	联络员	腰臀比	上升	震撼	险峻	蜜罐	塑料袋	珍贵	实用	裁判员	儒雅	合作	回音	1	1	0	0	0	0	0	0	0	0	0	0	0	0	1	female	between 24 and 29	other	bachelor	Arts and humanities
+294	295	洋葱	曲线	记者	比例	膨胀	视觉	骑行	糖衣	烟杆	豆蔻	直尺	将军	阅读	鸳鸯	回响	1	1	1	1	1	1	0	0	0	1	1	1	1	1	0	male	between 24 and 29	other	bachelor	Programme subject
+295	296	洋葱	曲线	记者	汇率	外交	影视	悬崖	甜衣	抽烟	杨柳	直尺	将军	学者	鸳鸯	回音	1	1	1	0	0	0	1	0	1	0	1	1	0	1	1	female	above 30	other	bachelor	Other social science subjects
+296	297	洋葱	曲线	记者	银行家	膨胀	画面	山地战	易拉罐	吸烟	化妆品	尺子	谋划	思考	拆散	信号	1	1	1	0	1	0	0	0	1	0	1	0	1	0	0	female	above 30	current employee	bachelor	STEM
+297	298	洋葱	教授	记者	交易所	派对	动画	将军	鲜血	面罩	采茶	测绘仪	博弈	思考	鸳鸯	传讯	1	0	1	0	0	0	0	0	0	0	0	0	1	1	0	female	above 30	current employee	bachelor	Programme subject
+298	299	音乐	抛物线	瞭望塔	钻石	天空	震撼	悬崖	温水	垃圾	首饰	尺子	竞技	学习	耳机	皮筋	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	female	above 30	current employee	bachelor	Other social science subjects
+299	300	洋葱	期望	记者	无价	膨胀	视觉	悬崖	糖果	香烟	花朵	直尺	将军	阅读	鸳鸯	回声	1	0	1	0	1	1	1	1	1	1	1	1	1	1	1	female	above 30	current employee	bachelor	STEM
+300	301	洋葱	曲线	记者	金价	膨胀	刺激	坠崖	蜜罐	吸烟者	花蕾	标尺	宰相	阅读	鸳鸯	回音	1	1	1	0	1	0	0	0	0	0	0	0	1	1	1	male	between 24 and 29	other	bachelor	STEM
+301	302	洋葱	理想	记者	价格	膨胀	视觉	悬崖	蜜糖	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	回声	1	0	1	0	1	1	1	1	1	1	1	1	1	1	1	female	between 24 and 29	other	bachelor	Other social science subjects
+302	303	洋葱	曲线	记者	比例	膨胀	动态线	悬崖	糖果	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	回音	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	female	unknown	other	bachelor	Programme subject
+303	304	洋葱	事迹	记者	市场	膨胀	电影	跌落	糖炮弹	抽烟	豆蔻	尺子	将军	读书	鸳鸯	回音	1	0	1	0	1	0	0	0	1	1	1	1	1	1	1	female	above 30	other	master	Other social science subjects
+304	305	洋葱	曲线	记者	金价	膨胀	视觉	悬崖	糖果	香烟	豆蔻	直尺	将军	气质	鸳鸯	回音	1	1	1	0	1	1	1	1	1	1	1	1	0	1	1	female	above 30	other	bachelor	Other social science subjects
+305	306	洋葱	曲线	记者	期货	身材	电影	悬崖	糖衣	烟雾	豆蔻	尺子	将帅	学习	鸳鸯	回声	1	1	1	0	0	0	1	0	0	1	1	0	0	1	1	female	above 30	other	bachelor	Arts and humanities
+306	307	洋葱	理想	记者	金融	权力	电影	悬崖	糖果	吸烟	豆蔻	尺子	将军	阅读	公园	回声	1	0	1	0	0	0	1	1	1	1	1	1	1	0	1	female	unknown	other	bachelor	Programme subject
+307	308	洋葱	贫瘠	记者	盎司	泡沫	摄影	驰骋	蜂蜜	吸烟	兰花	尺子	将军	阅读	打散	蝙蝠	1	0	1	0	0	0	0	0	1	0	1	1	1	0	0	female	above 30	other	master	Other social science subjects
+308	309	感官	挑战	责任	运算	满足	刺激	自由	伪装	拒绝	美好	准确	思考	养成	离散	反响	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	female	above 30	other	bachelor	Arts and humanities
+309	310	洋葱		记者	三角	膨胀	视觉		糖衣	香烟	豆蔻	尺子	将帅	阅读	鸳鸯	回声	1	0	1	0	1	1	0	0	1	1	1	0	1	1	1	female	unknown	current employee	bachelor	Programme subject
+310	311	洋葱	曲线	记者	经济	膨胀	电影	悬崖	诱惑	香烟	豆蔻	量尺	将帅	思考	鸳鸯	回音	1	1	1	0	1	0	1	0	1	1	0	0	1	1	1	female	above 30	current employee	bachelor	STEM
+311	312	洋葱	曲线	记者	比例	放纵	视觉	野马	蜜糖	香烟	鲜花	尺子	将军	阅读	鸳鸯	回声	1	1	1	1	0	1	0	1	1	0	1	1	1	1	1	male	between 24 and 29	other	bachelor	Other social science subjects
+312	313	洋葱	曲线	报道	周期	膨胀	视觉	悬崖	糖果	烟雾	豆蔻	透明度	将军	阅读	鸳鸯	回音	1	1	1	0	1	1	1	1	0	1	0	1	1	1	1	female	above 30	current employee	bachelor	Other social science subjects
+313	314	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖果	吸烟	豆蔻	尺子	将军	学习	鸳鸯	回音	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	female	unknown	other	bachelor	Other social science subjects
+314	315	洋葱	曲线	记者	比例	膨胀	视觉	坠落	蜜糖	气体	豆蔻	直尺	将帅	阅读	鸳鸯	空旷	1	1	1	1	1	1	0	1	0	1	1	0	1	1	0	female	below 23	current graduate	bachelor	Programme subject
+315	316	洋葱	曲线	记者	价格	膨胀	电影	悬崖	蜂蜜	抽烟	豆蔻	直尺	将军	阅读	鸳鸯	回音	1	1	1	0	1	0	1	0	1	1	1	1	1	1	1	female	unknown	other	bachelor	Arts and humanities
+316	317	辣椒	曲线	记者	三等分	政客	动作片	古道	蜂蜜	香烟	豆蔻	三角板	霸王	阅读	鸳鸯	烽火	0	1	1	0	0	0	0	0	1	1	0	0	1	1	0	male	between 24 and 29	current employee	master	Other social science subjects
+317	318	洋葱	曲线	记者	比例	膨胀	电影	骑兵	爆米花	垃圾	豆蔻	直尺	将军	阅读	鸳鸯	回声	1	1	1	1	1	0	0	0	0	1	1	1	1	1	1	male	unknown	other	bachelor	Arts and humanities
+318	319	洋葱	曲线	记者	比例	膨胀	闪光灯	斜坡	糖果	抽烟	花季	尺子	元帅	阅读	鸳鸯	回音	1	1	1	1	1	0	0	1	1	0	1	0	1	1	1	female	between 24 and 29	other	bachelor	Other social science subjects
+319	320	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖果	香烟	鲜花	尺子	将帅	熬夜	鸳鸯	回声	1	1	1	1	1	1	1	1	1	0	1	0	0	1	1	male	above 30	current employee	bachelor	STEM
+320	321	洋葱	曲线	记者	0.618	膨胀	失明	悬崖	蜂蜜	烟草	豆蔻	直尺	军师	视力	鸳鸯	回音	1	1	1	0	1	0	1	0	1	1	1	0	0	1	1	female	between 24 and 29	current employee	bachelor	Other social science subjects
+321	322	洋葱	科学家	记者	黄金比	颁奖礼	视觉	藏区	桃子	煤气罐	插花师	软尺	将军	阅读	鸳鸯	回音	1	0	1	0	0	1	0	0	0	0	0	1	1	1	1	female	between 24 and 29	other	bachelor	STEM
+322	323	洋葱	曲线	记者	银行	狐狸	电影	骑兵	蜂蜜	吸烟	君子兰	尺子	将军	字典	鸳鸯	回声	1	1	1	0	0	0	0	0	1	0	1	1	0	1	1	female	above 30	other	bachelor	STEM
+323	324	洋葱	曲线	记者	比例	膨胀	视觉	探险	糖果	香烟	鲜花	尺子	军长	阅读	鸳鸯	回声	1	1	1	1	1	1	1	1	1	0	1	0	1	1	1	female	above 30	current employee	bachelor	Other social science subjects
+324	325	洋葱	曲线	记者	金字塔	吹牛	辣眼睛	骑马	糖果	二手烟	豆蔻	直尺	将军	阅读	鸳鸯	回音	1	1	1	0	0	0	0	1	0	1	1	1	1	1	1	female	unknown	current graduate	bachelor	Programme subject
+325	326	洋葱	曲线	记者	价格	巨大	视觉	丛林	糖果	吸烟	豆蔻	刻度尺	将军	阅读	鸳鸯	远方	1	1	1	0	0	1	0	1	1	1	1	1	1	1	0	female	between 24 and 29	current employee	bachelor	Arts and humanities
+326	327	洋葱	教师	记者	分割点	求婚	好莱坞	激战	摧毁	香烟	玫瑰	直尺	将军	文豪	保护	耳朵	1	0	1	0	0	0	0	0	1	0	1	1	0	0	0	female	between 24 and 29	other	bachelor	Programme subject
+327	328	洋葱	曲线	记者	比例	膨胀	视觉	飞驰	糖衣	吸烟	豆蔻	尺子	将军	学习	鸳鸯	回声	1	1	1	1	1	1	0	0	1	1	1	1	0	1	1	female	above 30	current employee	bachelor	Other social science subjects
+328	329	洋葱	曲线	记者	比例	膨胀	电影	征服	糖果	吸烟	豆蔻	尺子	竞争	阅读	鸳鸯	回音	1	1	1	1	1	0	0	1	1	1	1	0	1	1	1	female	unknown	other	bachelor	Other social science subjects
+329	330	洋葱	曲线	记者	公斤	膨胀	立体	悬崖	糖衣	吸烟	昙花	尺子	马匹	学习	鸳鸯	山歌	1	1	1	0	1	0	1	0	1	0	1	0	0	1	0	female	above 30	current employee	bachelor	Other social science subjects
+330	331	洋葱	方案	记者	时间	膨胀	视觉	战士	铁锈	香烟	豆蔻	尺子	将军	阅读	追逐	鸽子	1	0	1	0	1	1	0	0	1	1	1	1	1	0	0	female	between 24 and 29	other	bachelor	Arts and humanities
+331	332	洋葱	曲线	记者	比例	充满	视觉	驾驭	糖衣	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	回音	1	1	1	1	0	1	0	0	1	1	1	1	1	1	1	male	between 24 and 29	other	bachelor	Other social science subjects
+332	333	洋葱	抛物线	记者	经济	膨胀	电影	悬崖	巧言	汽车	芦荟胶	尺子	将军	桌子	船只	鸽子	1	0	1	0	1	0	1	0	0	0	1	1	0	0	0	female	between 24 and 29	other	bachelor	Other social science subjects
+333	334	青椒	曲线	记者	圆周率	膨胀	动作片	悬崖	热量	香烟	青葱	直尺	将军	笔记	鸳鸯	鸽子	0	1	1	0	1	0	1	0	1	0	1	1	0	1	0	female	unknown	other	bachelor	Programme subject
+334	335	洋葱	女性	记者	银行	冒险家	立体镜	边防	二战	电池	植物家	真实	战争	阅读	公园	支教	1	0	1	0	0	0	0	0	0	0	0	0	1	0	0	female	between 24 and 29	current employee	bachelor	Other social science subjects
+335	336	洋葱	勾股	记者	高度角	热气球	电影	攀岩	罐头	香烟	护肤品	直尺	将军	思考	仙女棒	吼叫	1	0	1	0	0	0	0	0	1	0	1	1	1	0	0	male	between 24 and 29	other	bachelor	STEM
+336	337	洋葱	曲线	传报员	比例	膨胀	视觉	冲锋	糖果	香烟	豆蔻	直尺	将军	阅读	鸳鸯	信号	1	1	0	1	1	1	0	1	1	1	1	1	1	1	0	female	below 23	current graduate	bachelor	STEM
+337	338	洋葱	英雄	记者	艺术	吹牛	科幻	探险家	糖豆	二手烟	精华液	格尺	元帅	作家	纯洁	雷达	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	male	between 24 and 29	other	bachelor	Other social science subjects
+338	339	洋葱	曲线	记者	价格	膨胀	视觉	峻岭	糖衣	吸烟	玫瑰	尺子	将军	阅读	鸳鸯	声音	1	1	1	0	1	1	0	0	1	0	1	1	1	1	0	female	between 24 and 29	other	bachelor	Programme subject
+339	340	洋葱	曲线	记者	涨幅	变化	视觉	奔跑	陷阱	焦虑	阳光	材质	政治	阅读	嬉闹	回声	1	1	1	0	0	1	0	0	0	0	0	0	1	0	1	female	unknown	other	bachelor	STEM
+340	341	打喷嚏	曲线	记者	分割比	比赛	立体	跳跃	白砂糖	二手烟	芳华	直尺	将军	学习	鸳鸯	无线电	0	1	1	0	0	0	0	0	0	0	1	1	0	1	0	male	unknown	current graduate	bachelor	STEM
+341	342	洋葱	理想	记者	汇率	爆炸	电影	峡谷战	罐头	吸烟	花朵	尺子	将军	阅读	游乐场	雷达	1	0	1	0	1	0	0	0	1	1	1	1	1	0	0	female	below 23	current graduate	bachelor	STEM
+342	343	洋葱	曲线	记者	六一八	膨胀	辣椒粉	赛马	糖衣	吸烟	艾草	三角尺	将军	阅读	鸳鸯	回声	1	1	1	0	1	0	0	0	1	0	0	1	1	1	1	female	below 23	current graduate	bachelor	STEM
+343	344	洋葱	理想	记者	曲线	黄色	炸药	攀登	糖果	吸烟	青春	环保	将军	阅读	家庭	回音	1	0	1	0	0	0	0	1	1	0	0	1	1	0	1	female	below 23	current graduate	bachelor	Other social science subjects
+344	345	洋葱	近代史	记者	分割比	胜负欲	冲击感	缰绳	鸩酒	二手烟	豆蔻	尺子	军棋	朗读者	鸳鸯谱	天眼	1	0	1	0	0	0	0	0	0	1	1	0	0	0	0	female	between 24 and 29	other	bachelor	Arts and humanities
+345	346	洋葱	曲线	记者	三角形	膨胀	视觉	悬崖	蜜糖	吸烟	豆蔻	直尺	将军	阅读	鸳鸯	传递	1	1	1	0	1	1	1	1	1	1	1	1	1	1	0	male	below 23	current graduate	bachelor	STEM
+346	347	洋葱	女特工	通讯员	期货	膨胀	特效	征服	糖果	香烟	月季	尺子	元帅	阅读	棒球服	回音	1	0	0	0	1	0	0	1	1	0	1	0	1	0	1	male	between 24 and 29	other	bachelor	Arts and humanities
+347	348	洋葱	曲线	记者	经济	膨胀	视觉	远方	糖衣	吸烟	美好	地质	将军	爱好	鸳鸯	乡村	1	1	1	0	1	1	0	0	1	0	0	1	0	1	0	female	unknown	other	bachelor	STEM
+348	349	洋葱	曲线	记者	比例	梦想	视觉	峻岭	糖衣	煤气罐	青葱	量尺	将军	投入	鸳鸯	回音	1	1	1	1	0	1	0	0	0	0	0	1	0	1	1	female	unknown	other	bachelor	Other social science subjects
+349	350	洋葱	曲线救国	战地记者	金元宝	膨胀	冲击波	悬崖勒马	糖衣炮弹	二手烟	亭亭玉立	塑料直尺	军师	深度阅读	棒打鸳鸯	回声	1	0	0	0	1	0	0	0	0	0	0	0	0	0	1	female	between 24 and 29	other	bachelor	Programme subject
+350	351	洋葱	曲线	记者	分割率	充满	特效	闪电	糖果	吸烟	豆蔻	标尺	谋略	学习	鸳鸯	回响	1	1	1	0	0	0	0	1	1	1	0	1	0	1	0	female	unknown	other	bachelor	Other social science subjects
+351	352	洋葱	曲线	记者	比例	膨胀	视觉	跌落	糖果	香烟	青春	直尺	将军	阅读	鸳鸯	回音	1	1	1	1	1	1	0	1	1	0	1	1	1	1	1	male	between 24 and 29	other	bachelor	STEM
+352	353	洋葱	曲线	记者	比例	游行	视觉	飞跃	蜜糖	香烟	妙曼	直尺	士兵	阅读	鸳鸯	回声	1	1	1	1	0	1	0	1	1	0	1	0	1	1	1	female	below 23	current graduate	bachelor	Programme subject
+353	354	洋葱	曲线	记者	比例	膨胀	爆炸	悬崖	蜂蜜	抽烟	鲜花	直尺	将军	阅读	鸳鸯	回声	1	1	1	1	1	0	1	0	1	0	1	1	1	1	1	female	between 24 and 29	current employee	bachelor	STEM
+354	355	洋葱	曲线	记者	比例	膨胀	视觉	奔腾	糖衣	肺炎	豆蔻	尺子	谋士	阅读	鸳鸯	回音	1	1	1	1	1	1	0	0	0	1	1	0	1	1	1	female	between 24 and 29	current employee	bachelor	STEM
+355	356	山葵	科学家	政治家	赌神	危险	特效	旅行家	小孩	烟民	校园	尺子	工兵	研究生	鸳鸯	回声	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	male	below 23	current graduate	bachelor	Programme subject
+356	357	洋葱	曲线	记者	比例	膨胀	闪光弹	闪电	糖果	吸烟	豆蔻	尺子	将军	知识	鸳鸯	回音	1	1	1	1	1	0	0	1	1	1	1	1	0	1	1	male	between 24 and 29	other	bachelor	Other social science subjects
+357	358	洋葱	女教师	记者	比例	破灭	眼泪	战争	糖豆	香烟	益母草	直尺	将军	阅读	棒球帽	回声	1	0	1	1	0	0	0	0	1	0	1	1	1	0	1	female	above 30	current employee	bachelor	Arts and humanities
+358	359	洋葱	曲线	记者	金价	小丑	视觉	行军	蜜糖	香烟	豆蔻	直尺	将军	笔记	鸳鸯	回音	1	1	1	0	0	1	0	1	1	1	1	1	0	1	1	female	unknown	current employee	bachelor	Other social science subjects
+359	360	农药	曲线	记者	比例	膨胀	视觉	悬崖	糖果	香烟	豆蔻	直尺	将军	阅读	鸳鸯	回音	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	female	above 30	other	bachelor	Other social science subjects
+360	361	洋葱	数学家	记者	金融	火焰	屏幕	悬崖	糖衣弹	香烟	豆蔻	量杯	将军	阅读	鸳鸯	森林	1	0	1	0	0	0	1	0	1	1	0	1	1	1	0	female	between 24 and 29	other	bachelor	Other social science subjects
+361	362	洋葱	曲线	记者	战争	破裂	脑科学	飞跃	糖果	煤气罐	豆蔻	标尺	游戏	知识	鸳鸯	赫兹	1	1	1	0	0	0	0	1	0	1	0	0	0	1	0	male	between 24 and 29	current employee	bachelor	Other social science subjects
+362	363	洋葱	曲线	记者	比例	膨胀	视觉	疾速	糖衣	香烟	豆蔻	直尺	将帅	阅读	鸳鸯	回音	1	1	1	1	1	1	0	0	1	1	1	0	1	1	1	male	between 24 and 29	other	bachelor	STEM
+363	364	洋葱	曲线	记者	比例	膨胀	视觉	坠落	番茄	香烟	豆蔻	尺子	将军	阅读	鸳鸯	回声	1	1	1	1	1	1	0	0	1	1	1	1	1	1	1	female	below 23	current graduate	bachelor	Programme subject
+364	365	蒜头	曲线	记者	比例	放飞	强光	刺激	糖果	香烟	变化	人品	军官	修养	鸳鸯	往返	0	1	1	1	0	0	0	1	1	0	0	0	0	1	0	female	above 30	current employee	bachelor	Other social science subjects
+365	366	大蒜	读书	党媒	勾股	童年	恐怖片	悬崖	黄桃	吸烟	康乃馨	尺子	元帅	笔记	狗仔	呐喊	0	0	0	0	0	0	1	0	1	0	1	0	0	0	0	female	unknown	other	bachelor	Other social science subjects
+366	367	洋葱	导弹	记者	银行	庆祝会	特效	赛马	汽水	吸烟	青春	量尺	将军	阅读	鸳鸯	回声	1	0	1	0	0	0	0	0	1	0	0	1	1	1	1	male	unknown	other	bachelor	Programme subject
+367	368	洋葱	曲线	记者	维纳斯	膨胀	真实感	挽救	捧杀	吸烟	子衿	卷尺	指挥员	读后感	拆鸳鸯	三体	1	1	1	0	1	0	0	0	1	0	0	0	0	0	0	male	unknown	current graduate	bachelor	Programme subject
+368	369	洋葱	谷峰	记者	货币	膨胀	数字	骑兵	糖	烟	豆	尺子	将	阅读	子	鸽子	1	0	1	0	1	0	0	1	0	0	1	0	1	0	0	female	above 30	current employee	bachelor	STEM
+369	370	洋葱	知识	记者	分割比	膨胀	闪光	悬崖	糖衣	吸烟	豆蔻	直尺	将军	阅读	鸳鸯	呐喊	1	0	1	0	1	0	1	0	1	1	1	1	1	1	0	male	unknown	current employee	bachelor	STEM
+370	371	洋葱	间谍	记者	金融	膨胀	暴力	悬崖	泡泡糖	吸烟	水仙	尺子	军帅	博士	鸳鸯	回音	1	0	1	0	1	0	1	0	1	0	1	0	0	1	1	female	unknown	other	bachelor	STEM
+371	372	辣椒	曲线	记者	比例	膨胀	视觉	悬崖	糖衣	吸烟	青春	直尺	将军	学习	鸳鸯	条件	0	1	1	1	1	1	1	0	1	0	1	1	0	1	0	male	between 24 and 29	current employee	bachelor	Programme subject
+372	373	洋葱	曲线	记者	分割线	胜利	视觉	战争	糖衣	香烟	花样	直尺	统帅	学习	鸳鸯	回音	1	1	1	0	0	1	0	0	1	0	1	0	0	1	1	female	unknown	current graduate	bachelor	Programme subject
+373	374	洋葱	曲线	报道	经济	膨胀	震撼	悬崖	糖果	香烟	豆蔻	标尺	宰相	阅读	鸳鸯	回音	1	1	1	0	1	0	1	1	1	1	0	0	1	1	1	male	between 24 and 29	current employee	bachelor	STEM
+374	375	洋葱	水电站	记者	分割律	膨胀	电影	长征	可乐	香烟	豆蔻	尺子	元帅	阅读	鸳鸯	回音	1	0	1	0	1	0	0	0	1	1	1	0	1	1	1	male	between 24 and 29	current employee	bachelor	Other social science subjects
+375	376	洋葱	导弹	记者	比例	膨胀	尖锐	跌落	贿赂	废气	初春	尺子	谋略	思考	农家乐	回声	1	0	1	1	1	0	0	0	0	0	1	1	1	0	1	male	below 23	current graduate	bachelor	STEM
+376	377	洋葱	蘑菇云	记者	三角形	派对	烟花	边疆	糖衣	香烟	豆蔻	尺子	将军	阅读	湖水	山歌	1	0	1	0	0	0	0	0	1	1	1	1	1	0	0	female	unknown	other	bachelor	Programme subject
+377	378	洋葱	曲线	记者	比例	高飞	视觉	骑马	糖果	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	回音	1	1	1	1	0	1	0	1	1	1	1	1	1	1	1	female	between 24 and 29	other	bachelor	Other social science subjects
+378	379	洋葱	科技	记者	金字塔		电影	探险	糖果	抽烟	成长	尺子	元帅	阅读	繁衍	信号	1	0	1	0	0	0	1	1	1	0	1	0	1	0	0	male	between 24 and 29	other	bachelor	Programme subject
+379	380	洋葱	曲线	记者	股票	吹嘘	闪光	荒野	黄桃	吸烟	花朵	检测	军棋	阅读	天鹅	回音	1	1	1	0	0	0	0	0	1	1	0	0	1	0	1	male	below 23	current graduate	bachelor	Arts and humanities
+380	381	洋葱	曲线	记者	比例	膨胀	视觉	险峻	糖果	吸烟	豆蔻	直尺	将军	阅读	鸳鸯	信号	1	1	1	1	1	1	0	1	1	1	1	1	1	1	0	male	between 24 and 29	other	bachelor	Other social science subjects
+381	382	洋葱	曲线	记者	金融	膨胀	烟花	火海	糖果	香烟	豆蔻	尺子	将军	阅读	夫妻	回音	1	1	1	0	1	0	0	1	1	1	1	1	1	0	1	male	between 24 and 29	current employee	bachelor	Programme subject
+382	383	洋葱，芥末，辣椒	曲线，线条	记者，报纸	货币，央行	膨胀	视觉	飞渡，跨越	糖，蜜	吸烟，负面情绪	豆蔻	尺	将士	思考，阅读	棒打鸳鸯	呐喊	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	female	above 30	current employee	bachelor	Other social science subjects
+383	384	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	蜜糖	香烟	豆蔻	直尺	将士	阅读	鸳鸯	回声	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	female	below 23	current graduate	bachelor	Programme subject
+384	385	洋葱	曲线	记者	勾股定理	膨胀	3D电影	悬崖勒马	糖衣炮弹	抽烟	豆蔻年华	塑料直尺	将军	阅读	赶鸭子上轿	空谷回音	1	1	1	0	1	0	0	0	1	0	0	1	1	0	0	female	between 24 and 29	other	bachelor	Other social science subjects
+385	386	洋葱	女子	记者	比例	充满	视觉	悬崖	糖果	垃圾	花朵	直角尺	将军	学习	鸳鸯	距离	1	0	1	1	0	1	1	1	0	1	0	1	0	1	0	male	unknown	other	bachelor	STEM
+386	387	洋葱	钱学森弹道	军事记者	黄金分割率	热气球运动员	哭泣	千里奔袭	糖衣炮弹	抽烟	梅花	直尺	博弈	沉浸	寻觅	超声波	1	0	0	0	0	0	0	0	1	0	1	0	0	0	0	male	below 23	current graduate	bachelor	STEM
+387	388	洋葱	曲线	记者	价格	膨胀	刺激	跌落	糖果	香烟	豆蔻	直尺	将军	阅读	鸳鸯	回声	1	1	1	0	1	0	0	1	1	1	1	1	1	1	1	male	unknown	current graduate	bachelor	Arts and humanities
+388	389	洋葱	女人	记者	银行	飞翔	过山车	赛马	忽悠	塑料	海棠	环保	军棋	作家	犯错	雷达	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	female	between 24 and 29	other	bachelor	Arts and humanities
+389	390	洋葱	曲线	记者	比例	膨胀	视觉	勒马	糖果	吸烟	豆蔻	直尺	将帅	阶梯	鸳鸯	回音	1	1	1	1	1	1	0	1	1	1	1	0	0	1	1	female	between 24 and 29	current graduate	bachelor	Other social science subjects
+390	391	洋葱	曲线	记者	比例	游行	视觉	悬崖	砂糖	香烟	青葱	尺子	将军	阅读	鸳鸯	回声	1	1	1	1	0	1	1	0	1	0	1	1	1	1	1	female	between 24 and 29	other	bachelor	Other social science subjects
+391	392	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖衣	吸烟	鲜花	格尺	将军	阅读	鸳鸯	回音	1	1	1	1	1	1	1	0	1	0	0	1	1	1	1	female	between 24 and 29	other	bachelor	Other social science subjects
+392	393	洋葱	曲线	记者	金融	儿童	视觉	英雄	糖果	吸烟	豆蔻	尺子	将帅	思维	鸳鸯	回音	1	1	1	0	0	1	0	1	1	1	1	0	0	1	1	male	unknown	current graduate	bachelor	STEM
+393	394	洋葱	理工科	记者	美联储	膨胀	电影	自然	棉花	香烟	豆蔻	直尺	将军	思考	争吵	呐喊	1	0	1	0	1	0	0	0	1	1	1	1	1	0	0	female	above 30	other	bachelor	Other social science subjects
+394	395	洋葱	曲线	记者	函数	吹牛	震撼	奔驰	汽水	电池	芍药	尺子	将军	阅读	鸳鸯	回音	1	1	1	0	0	0	0	0	0	0	1	1	1	1	1	female	unknown	current graduate	bachelor	Programme subject
+395	396	洋葱	曲线	记者	价格	地位	短视频	骑马	糖果	二手烟	水仙	尺子	将军	阅读	鸳鸯	回音	1	1	1	0	0	0	0	1	0	0	1	1	1	1	1	male	below 23	other	bachelor	Other social science subjects
+396	397	洋葱	曲线	记者	比例	膨胀	吸引力	战马	糖衣	香烟	豆蔻	尺子	将军	阅读	鸳鸯	回声	1	1	1	1	1	0	0	0	1	1	1	1	1	1	1	male	unknown	other	bachelor	STEM
+397	398	洋葱	报效	记者	金融	派对	电影	策马	爆米花	香烟	化妆品	尺子	博弈	精读	鸳鸯	回音	1	0	1	0	0	0	0	0	1	0	1	0	0	1	1	female	above 30	current employee	bachelor	Other social science subjects
+398	399	洋葱	曲线	记者	金融	膨胀	动作片	赛马	罐头	烟	豆蔻	标尺	将军	夜读	鸳鸯	回声	1	1	1	0	1	0	0	0	0	1	0	1	0	1	1	male	between 24 and 29	other	bachelor	STEM
+399	400	洋葱	曲线	记者	比例	膨胀		悬崖	糖衣	吸烟	豆蔻	品质	团长	学习	鸳鸯	回音	1	1	1	1	1	0	1	0	1	1	0	0	0	1	1	female	between 24 and 29	other	bachelor	STEM
+400	401	洋葱	理想	记者	比例	膨胀	视觉	草原	糖果	香烟	豆蔻	尺子	军棋	阅读	鸳鸯	信号	1	0	1	1	1	1	0	1	1	1	1	0	1	1	0	female	between 24 and 29	other	bachelor	Programme subject
+401	402	洋葱	曲线	记者	金融	膨胀	3D	战争	糖衣	二手烟	豆蔻	直尺	将帅	爱读书	鸳鸯	回音	1	1	1	0	1	0	0	0	0	1	1	0	0	1	1	female	below 23	current graduate	bachelor	STEM
+402	403	洋葱	曲线	记者	比例	膨胀	视觉	跌落	糖衣	香烟	黄花	尺子	士兵	阅读	鸳鸯	回音	1	1	1	1	1	1	0	0	1	0	1	0	1	1	1	female	between 24 and 29	other	bachelor	Programme subject
+403	404	洋葱	数学家	指挥员	圆周率	膨胀	视觉	高原	糖衣	吸烟	萌芽	直尺	国王	阅读	鸳鸯	回声	1	0	0	0	1	1	0	0	1	0	1	0	1	1	1	female	between 24 and 29	other	bachelor	Programme subject
+404	405	洋葱	理想	记者	经济	膨胀	视觉	赛车	可乐	煤气罐	豆蔻	尺子	将军	阅读	鸳鸯	回音	1	0	1	0	1	1	0	0	0	1	1	1	1	1	1	female	above 30	other	bachelor	Other social science subjects
+405	406	大蒜，芥末，洋葱，大葱，香菜，纸巾，感动，涕泗横流，感动，	精神	记者，野炊，炊事兵，羡慕，梦想，期冀，	金砖国家，比特币，富豪，国家领导人，欲望，利益	游乐园，生日，成绩单，痛苦，失落，	3d影片，小视频，抖音，5d体验，初体验，洗眼	意外，痛苦，新闻，哀悼，记录，夸耀	黄桃罐头，糖衣炮弹	吸烟，房贷，继子女，	豆蔻年华	量角器，三角尺	将军	学习	鸳鸯	回音	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1	female	below 23	current graduate	bachelor	Programme subject
+406	407	洋葱	曲线	记者	指数	膨胀	视觉	险峻	蜜糖	吸烟	豆蔻	人工	士兵	阅读	鸳鸯	回声	1	1	1	0	1	1	0	1	1	1	0	0	1	1	1	female	above 30	current employee	bachelor	Other social science subjects
+407	408	洋葱	曲线	记者	比例	膨胀	视觉	高速	糖衣	气体	杨花	尺子	将军	阅读	鸳鸯	回声	1	1	1	1	1	1	0	0	0	0	1	1	1	1	1	female	unknown	current graduate	bachelor	Other social science subjects
+408	409	洋葱	天文	记者	金融	浪漫	震撼	爬坡	糖果	吸烟	豆蔻	尺子	围棋	阅读	鸳鸯	回音	1	0	1	0	0	0	0	1	1	1	1	0	1	1	1	female	between 24 and 29	other	bachelor	Other social science subjects
+409	410	洋葱	曲线	记者	比例	膨胀	视觉	山路	白糖	吸烟	豆蔻	直尺	士兵	阅历	鸳鸯	回声	1	1	1	1	1	1	0	0	1	1	1	0	0	1	1	female	above 30	current employee	bachelor	Programme subject
+410	411	洋葱	杨幂	记者	时间	膨胀	视觉	战马	罐头	尾气	豆蔻	直尺	军师	阅读	鸭舌帽	回音	1	0	1	0	1	1	0	0	0	1	1	0	1	0	1	female	between 24 and 29	current employee	bachelor	STEM
+411	412	洋葱	曲线	记者	时间	爆炸	眼球	悬崖	糖果	抽烟	花朵	尺子	将军	学习	鸳鸯	雷达	1	1	1	0	1	0	1	1	1	1	1	1	0	1	0	female	between 24 and 29	other	bachelor	Other social science subjects
+412	413	洋葱	曲线	记者	分割	膨胀	视觉冲击	悬崖勒马	糖衣炮弹	二手烟	豆蔻年华	正直	将军	阅读	鸳鸯	回音	1	1	1	0	1	0	0	0	0	0	0	1	1	1	1	female	between 24 and 29	current employee	bachelor	STEM
+413	414	洋葱	曲线	记者	分割	膨胀	特效	勒马	糖衣	香烟	豆蔻	尺子	将军	学习	棒打	回音	1	1	1	0	1	0	0	0	1	1	1	1	0	0	1	male	between 24 and 29	current employee	bachelor	Other social science subjects
+414	415	洋葱	曲线	记者	二十	膨胀	视觉	悬崖	糖果	香烟	豆蔻	直尺	将军	阅读	鸳鸯	声音	1	1	1	0	1	1	1	1	1	1	1	1	1	1	0	female	between 24 and 29	other	bachelor	STEM
+415	416	洋葱	曲线	记者	最佳比例	膨胀	视觉	冒险	甜蜜炮	吸烟	蒹葭	金属	将军	学习	棒打鸳鸯	回音	1	1	1	0	1	1	1	0	1	0	0	1	0	0	1	female	between 24 and 29	current graduate	bachelor	Programme subject
+416	417	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖衣	香烟	豆蔻	直尺	将军	阅读	鸳鸯	回音	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	female	between 24 and 29	other	bachelor	Programme subject
+417	418	洋葱	知识	记者	基金	膨胀	电影	悬崖	糖果	香烟	豆蔻	古董	将军	阅读	鸳鸯	乐曲	1	0	1	0	1	0	1	1	1	1	0	1	1	1	0	female	above 30	current employee	bachelor	Other social science subjects
+418	419	大蒜	曲线	记者	经济	充满	刺激	飞奔	糖衣	吸烟	青春	尺子	元帅	夜读	肯德基	回音	0	1	1	0	0	0	0	0	1	0	1	0	0	0	1	male	above 30	other	bachelor	Arts and humanities
+419	420	洋葱	曲线	记者	比例	膨胀	视觉	奔腾	糖衣	吸烟	豆蔻	品质	宰相	阅读	鸳鸯	回声	1	1	1	1	1	1	0	0	1	1	0	0	1	1	1	female	above 30	current employee	bachelor	STEM
+420	421	大蒜	曲线救国	战地记者	黄金比例	吹牛皮	视觉特效	悬崖勒马	糖衣炮弹	二手烟	亭亭玉立	塑料尺	元帅	钻研	棒打鸳鸯	山歌对唱	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	male	below 23	current graduate	bachelor	STEM
+421	422	洋葱	曲线	记者	标准、比例	膨胀	视觉	奔驰	诱惑	吸烟	生命	公正	将军	思考	反对	回声	1	1	1	0	1	1	0	0	1	0	0	1	1	0	1	female	unknown	other	bachelor	Other social science subjects
+422	423	洋葱	曲线	记者	圆周率	热气球	电影	飞跃山	棉花糖	二手烟	樱花	直尺	参谋	思考	情趣	呐喊	1	1	1	0	0	0	0	0	0	0	1	0	1	0	0	male	between 24 and 29	other	bachelor	Other social science subjects
+423	424	洋葱	原子弹	记者	电子秤	求婚	电影	掉悬崖	巧克力	吸烟	豆蔻	尺子	将军	易经	鸳鸯	唱山歌	1	0	1	0	0	0	0	0	1	1	1	1	0	1	0	female	between 24 and 29	other	bachelor	Arts and humanities
+424	425	洋葱	数学家	记者	银行	膨胀	电影	探险	糖衣弹	吸烟	豆蔻	尺子	主帅	阅读	鸳鸯	回声	1	0	1	0	1	0	1	0	1	1	1	0	1	1	1	female	above 30	other	master	Other social science subjects
+425	426	洋葱	曲线	记者	比例	梦想	视觉	悬崖	糖衣	二手烟	青春	科学家	将军	思考者	鸳鸯	回音	1	1	1	1	0	1	1	0	0	0	0	1	0	1	1	female	between 24 and 29	other	bachelor	STEM
+426	427	洋葱	曲线	记者	比例	膨胀	电影	越野	糖果	吸烟	玫瑰	尺子	司令	阅读	鸳鸯	回音	1	1	1	1	1	0	0	1	1	0	1	0	1	1	1	female	above 30	other	bachelor	Other social science subjects
+427	428	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖果	吸烟	豆蔻	尺子	将军	阅读	鸳鸯	回声	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	female	below 23	current graduate	bachelor	Other social science subjects
+428	429	气味	英雄	记者	金融	电影	图片	运动	花言巧语	吸烟	春天	量尺	军官	阅读	分离	信号	0	0	1	0	0	0	0	0	1	0	0	0	1	0	0	female	unknown	other	bachelor	Arts and humanities
+429	430	洋葱	曲线	记者	比例	升腾	视崖	悬崖	跳跳糖	二手烟	青葱	尺子	将帅	气质	鸳鸯	回声	1	1	1	1	0	0	1	0	0	0	1	0	0	1	1	female	unknown	other	bachelor	STEM
+430	431	洋葱	曲线	记者	矿工	山巅	光波	悬崖	糖果	香烟	豆蔻	直尺	将军	阅读	帽子	对唱	1	1	1	0	0	0	1	1	1	1	1	1	1	0	0	female	unknown	current graduate	bachelor	Other social science subjects
+431	432	洋葱	曲线	记者	经济	膨胀	明亮	野外	蜜糖	香烟	美好	尺子	争斗	阅读	鸳鸯	回声	1	1	1	0	1	0	0	1	1	0	1	0	1	1	1	female	above 30	other	bachelor	Other social science subjects
+432	433	洋葱	曲线	记者	分割比	膨胀	裸奔	蜀道难	糖衣	香烟	林黛玉	尺子	将军	阅读	一夜情	唱山歌	1	1	1	0	1	0	0	0	1	0	1	1	1	0	0	female	between 24 and 29	other	bachelor	Other social science subjects
+433	434	洋葱	曲线	记者	交易员	气体	电影	悬崖	糖衣	吸烟	豆蔻	尺子	宰相	阅读	孝子	回声	1	1	1	0	0	0	1	0	1	1	1	0	1	0	1	female	above 30	other	master	Other social science subjects
+434	435	洋葱	科学家	记者	身材比	膨胀	惊奇	悬崖	糖果罐	香烟	芙蓉	量尺	将军	阅读	鸳鸯	蝙蝠	1	0	1	0	1	0	1	0	1	0	0	1	1	1	0	male	between 24 and 29	other	bachelor	Other social science subjects
+435	436	洋葱，姜，鼻子，水果，温和	饱满，叛国，干瘪	记者，故事，旧事，拖延，和平，战场	白银，美元，货币，失衡，字母	膨胀，氢气球，低调，谦虚，谦逊，渴望，无所谓，需求	鼻子，无效，舒缓，辣眼睛，没效果，有冲击，	悬崖，警戒，丑马，美马，千里马，低谷，险峰，山路，山谷，安全，	咸的，辣的，苦的，塑料桶，瓶子，盘子，瓦罐，子弹，战斗，放炮	无害，安全，一手，崭新，三手，旧货，焦虑，高压，施压	年轻，稚嫩，男子，岁月，年轮，年龄，动物，青春期，花期，	卷尺，尺子，测量学，仪器，科学，尺度	军师，将军，打架，战争，冲突，矛盾，五子棋，跳棋，地位，统帅，小兵，大车，战车	勤思考，行为，浅显，书本，	打鸳鸯，夫妻，	回音，呼唤	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	female	unknown	current graduate	bachelor	Arts and humanities
+436	437	辣椒	美人计	记者	期货	膨胀	电影	跳崖	马蜂窝	香烟	娇嫩	格尺	将军	论文	鸭舌帽	回音	0	0	1	0	1	0	0	0	1	0	0	1	0	0	1	female	above 30	current employee	bachelor	STEM
+437	438	洋葱	曲线	记者	金价	航天站	科幻	山地战	糖衣	吸烟	窈窕	测验	军演	阅读	服装	回音	1	1	1	0	0	0	0	0	1	0	0	0	1	0	1	female	above 30	current employee	bachelor	STEM
+438	439	洋葱	曲线	记者	银行	膨胀	吸睛	悬崖	汽水	二手烟	豆蔻	直尺	将军	阅读	鸳鸯	回声	1	1	1	0	1	0	1	0	0	1	1	1	1	1	1	male	above 30	current employee	bachelor	STEM
+439	440	鲜美	曲线	记者	比例	膨胀	视觉	驰骋	糖衣	香烟	青葱	直尺	战略	阅读	鸳鸯	回音	0	1	1	1	1	1	0	0	1	0	1	1	1	1	1	female	between 24 and 29	other	bachelor	STEM
+440	441	洋葱	曲线	记者	债券	膨胀	闪电	峡谷	糖果	吸烟	豆蔻	尺子	相士	学习	鸳鸯	反响	1	1	1	0	1	0	0	1	1	1	1	0	0	1	0	male	unknown	other	bachelor	Other social science subjects
+441	442	大蒜	曲线	记者	十字镐	热气球	亮瞎眼	的卢马	棒棒糖	事故车	玫瑰	直尺	将军	日记	鸳鸯	回声	0	1	1	0	0	0	0	0	0	0	1	1	0	1	1	male	between 24 and 29	other	bachelor	Other social science subjects
+442	443	洋葱	南京	外交官	金字塔	爆炸	动画	悬崖	黄桃	沼气	玫瑰	尺子	骑士	学习	鸳鸯	回音	1	0	0	0	1	0	1	0	0	0	1	0	0	1	1	female	unknown	current employee	bachelor	Other social science subjects
+443	444	大蒜	曲线	前线	比例	膨胀	视觉	悬崖	糖衣	垃圾	花朵	尺子	将军	阅读	鸳鸯	回声	0	1	0	1	1	1	1	0	0	1	1	1	1	1	1	male	between 24 and 29	other	bachelor	Other social science subjects
+444	445	洋葱	曲线	记者	经济	膨胀	视觉	战争	糖衣	香烟	豆蔻	量化	将军	阅读	鸳鸯	回音	1	1	1	0	1	1	0	0	1	1	0	1	1	1	1	female	unknown	other	bachelor	Arts and humanities
+445	446	洋葱	曲线	记者	股市	膨胀	震撼	悬崖	吹捧	吸烟	豆蔻	格尺	指挥官	阅读	鸳鸯	回声	1	1	1	0	1	0	1	0	1	1	0	0	1	1	1	male	unknown	other	bachelor	STEM
+446	447	洋葱	曲线	记者	分割	爆炸	视觉	旷野	罐头	吸烟	水仙	尺子	马前卒	心流	鸳鸯	回声	1	1	1	0	1	1	0	0	1	0	1	0	0	1	1	female	unknown	other	bachelor	STEM
+447	448	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖衣	抽烟	鲜花	直尺	将士	阅读	鸳鸯	回音	1	1	1	1	1	1	1	0	1	0	1	0	1	1	1	female	unknown	other	master	Other social science subjects
+448	449	山葵	曲线	记者	千足金	求婚	特效	山地战	糖衣	抽烟	鲜花	测谎仪	老革命	阅读	鸳鸯	回音	0	1	1	0	0	0	0	0	1	0	0	0	1	1	1	female	above 30	other	bachelor	STEM
+449	450	洋葱	英雄	战报	基金	膨胀	过山车	冲击力	跳跳糖	香烟	郁金香	尺子	计谋	狭窄	周边	回音	1	0	0	0	1	0	0	0	1	0	1	1	0	0	1	female	below 23	current graduate	bachelor	Other social science subjects
+450	451	洋葱	曲线	记者	美丽	火热	激光	速降	蜜罐	香烟	郁金香	尺子	谋略	学习	鸳鸯	回声	1	1	1	0	0	0	0	0	1	0	1	1	0	1	1	male	between 24 and 29	current employee	bachelor	Other social science subjects
+451	452	洋葱	曲线	记者	折线图	鼓气	爆炸	悬崖	糖衣	香烟	桃花	直尺	地图	笔记	棒球帽	蝙蝠	1	1	1	0	0	0	1	0	1	0	1	0	0	0	0	male	between 24 and 29	current employee	bachelor	Other social science subjects
+452	453	洋葱	方法	记者	分割	膨胀	电影	原野	诱惑	香烟	豆蔻	品质	将军	思考	配种	呐喊	1	0	1	0	1	0	0	0	1	1	0	1	1	0	0	male	unknown	current employee	bachelor	STEM
+453	454	洋葱	曲线	记者	市场	膨胀	视觉	极限	跳跳糖	香烟	生命	标尺	计谋	学习	图案	传递	1	1	1	0	1	1	0	0	1	0	0	1	0	0	0	female	above 30	current employee	bachelor	Arts and humanities
+454	455	洋葱	曲线	军队	金价	避孕套	艺术馆	悬崖	罐头	香烟	花期	直尺	将军	阅读	结伴	光线	1	1	0	0	0	0	1	0	1	0	1	1	1	0	0	female	unknown	other	bachelor	Programme subject
+455	456	洋葱	核弹	卫星	美金	阳痿	脱衣舞	山贼	炼丹炉	香烟	面霜	卷尺	参谋	深刻	嬉戏	信号弹	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	male	between 24 and 29	other	bachelor	Programme subject
+456	457	洋葱	乳房	记者	金融	热气球	爆炸	赤兔	泡泡糖	二手烟	荷花	直尺	炮兵	阅读	唐老鸭	山歌	1	0	1	0	0	0	0	0	0	0	1	0	1	0	0	male	unknown	other	bachelor	Programme subject
+457	458	洋葱	曲线	记者	比例	膨胀	视觉	悬崖	糖果	吸烟	豆蔻	直尺	将军	阅读	鸳鸯	回音	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	female	between 24 and 29	other	bachelor	Programme subject
+458	459	洋葱	科技	记录	黄金档	膨胀	视觉	惊险	罐头	香烟	豆蔻	尺子	博弈	学习	鸳鸯	回音	1	0	0	0	1	1	0	0	1	1	1	0	0	1	1	male	between 24 and 29	current employee	bachelor	Programme subject
+459	460	洋葱	读书	报道	比例	膨胀	眼药水	逃跑	苦汤药	抽烟	鲜花	直尺	将军	阅读	划水	回声	1	0	1	1	1	0	0	0	1	0	1	1	1	0	1	female	below 23	current graduate	bachelor	Programme subject
+460	461	洋葱	粮食	记者	货币	都市	震惊	峡谷	蜜糖	香烟	豆蔻	军官	将军	阅读	鸳鸯	传音	1	0	1	0	0	0	0	1	1	1	0	1	1	1	0	female	unknown	current graduate	bachelor	Programme subject
+461	462	辣椒	曲线	记者	比例	膨胀	游戏	打仗	蜜糖	香烟	豆蔻	笔直	将军	阅读	鸳鸯	回响	0	1	1	1	1	0	0	1	1	1	0	1	1	1	0	female	between 24 and 29	other	bachelor	Programme subject
+462	463	洋葱	才能	记者	货币	膨胀	火焰	悬崖	糖果	抽烟	芍药	尺子	宰相	思考	鸳鸯	回声	1	0	1	0	1	0	1	1	1	0	1	0	1	1	1	female	above 30	current employee	master	Arts and humanities
+463	464	洋葱	理想	记者	货币	膨胀	立体	峻岭	谄媚	吸烟	豆蔻	量角器	将军	思考	鸳鸯	雷达	1	0	1	0	1	0	0	0	1	1	0	1	1	1	0	female	between 24 and 29	other	bachelor	Arts and humanities
+464	465	芥末	间谍	记者	金融	脆弱	闪电	长征	糖果	吸烟	花朵	尺子	兵卒	阅读	鸳鸯	回声	0	0	1	0	0	0	0	1	1	1	1	0	1	1	1	female	above 30	current employee	bachelor	Arts and humanities
+465	466	洋葱	数学	记者	银行	膨胀	电影	奔驰	巧克力	吸烟	豆蔻	企业家	将军	成长	男人	声音	1	0	1	0	1	0	0	0	1	1	0	1	0	0	0	female	above 30	other	master	Arts and humanities
+466	467	洋葱	曲线	记者	市场	膨胀	视觉	奔跑	蜂蜜	抽烟	春天	尺子	将军	阅读	鸳鸯	呼喊	1	1	1	0	1	1	0	0	1	0	1	1	1	1	0	female	above 30	current employee	bachelor	STEM

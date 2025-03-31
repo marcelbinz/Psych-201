@@ -1,8 +1,6 @@
 ### Reference:
 
-Renato Frey et al., Risk preference shares the psychometric structure of major psychological traits.
-Sci.Adv.3,e1701381(2017).
-DOI:10.1126/sciadv.1701381 
+Frey, R., Pedroni, A., Mata, R., Rieskamp, J., & Hertwig, R. (2017). Risk preference shares the psychometric structure of major psychological traits. Science advances, 3(10), e1701381. 
 
 ### Data source:
 

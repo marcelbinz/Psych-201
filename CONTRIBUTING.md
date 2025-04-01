@@ -3,6 +3,7 @@
 | Task | Individual Differences | Number of Choices | Link | Person |
 |:----------|:----------|:-------------|:-------------|:-------------|
 | Little alchemy  | - | 4,691,033 | [Link](https://google.com) | Franziska Brändle |
+| Observe or bet with efficacy | anxiety/depression, compulsivity, social withdrawal | 264,600 | https://osf.io/preprints/osf/5ezxs_v1 | Kai Sandbrink, Akshay Jagadish |
 | RPS | - | ? | [Link](https://google.com) | Elif Akata |
 | Economic games | - | ? | [Link](https://google.com) | Elif Akata |
 | Economic games | - | 90,000 | [Link](https://arxiv.org/pdf/2408.07865) | Jianqiao Zhu |

@@ -12,7 +12,7 @@ def main():
         raise FileExistsError(f"File '{output_file}' already exists. Please remove it or choose a different filename.")
     
     # Read the complete Stroop dataset.
-    df = pd.read_csv("/Users/nuno/Downloads/busch2024_stroop.csv")
+    df = pd.read_csv("/Users/nuno/Downloads/Psych-201/busch2024_stroop/busch2024_stroop.csv")
     print(df)
 
     record = []

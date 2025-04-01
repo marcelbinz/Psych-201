@@ -57,6 +57,7 @@ for folder in folders:
                 trial_text.append(decision_text)
                 all_rts.append(int(trial.sample_rts) if not pd.isna(trial.sample_rts) else None)
 
+            all_rts.append(None)
             final_decision = trial_data.iloc[-1]
             final_choice = "A" if final_decision.decision == "A" else "B"
             trial_text.append(

@@ -34,7 +34,8 @@ for file, df in dataframes.items():
     for i, row in df.iterrows():
         if "query_utility_gold" in str(row["response"]):
             background = cleanhtml(row["stimuli_background"])
-            text += "Stimulus "+ str(stimulus_cnt)+ ":\n"+ background + "\n"
+            condition = cleanhtml(row["stimuli_conditions"])
+            text += "Stimulus "+ str(stimulus_cnt)+ ":\n"+ background + "\n" + condition + "\n"
             # text += cleanhtml(row["response"]) + "\n"
             text += "You rated the likelihood of the player going for the gold trophy as <<" + str(json.loads(row["response"])["query_utility_gold"]) + ">>\n"
             text += "You rated the likelihood of the player going for the silver trophy as <<" + str(json.loads(row["response"])["query_utility_silver"]) + ">>\n"

@@ -30,7 +30,7 @@ role2txt = {
     "Criminal": ["criminal", "criminals", "a criminal", ],
     "Dog": ["dog", "dogs", "a dog", ],
     "Cat": ["cat", "cats", "a cat", ],
-    "Animal": ["animal", "animals", "a animal", ],
+    "Animal": ["animal", "animals", "an animal", ],
 }
 
 cnt2txt = 'zero one two three four five six seven eight nine ten'.split()

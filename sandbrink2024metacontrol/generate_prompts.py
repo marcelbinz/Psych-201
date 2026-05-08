@@ -10,11 +10,11 @@ from utils import randomized_choice_options
 
 # %% PARAMETERS
 
-datasets = ["behavior_24-01-22_day1.pkl", "behavior_24-01-22_day2.pkl", "behavior_24-01-22_day2B.pkl", "behavior_24-01-22_day3.pkl", "behavior_24-01-22_day3B.pkl", 
+datasets = ["behavior_24-01-22_day1.pkl", "behavior_24-01-22_day2.pkl", "behavior_24-01-22_day2B.pkl", "behavior_24-01-22_day3.pkl", "behavior_24-01-22_day3B.pkl",
             "behavior_24-01-29_day1.pkl", "behavior_24-01-29_day2.pkl", "behavior_24-01-29_day2B.pkl", "behavior_24-01-29_day3.pkl", "behavior_24-01-29_day3B.pkl",
             ]
 
-transdiagnostics_files = ["transdiagnostics_22A.csv", "transdiagnostics_22B.csv", 
+transdiagnostics_files = ["transdiagnostics_22A.csv", "transdiagnostics_22B.csv",
                     "transdiagnostics_29A.csv", "transdiagnostics_29B.csv"
                     ]
 
@@ -28,7 +28,7 @@ for file in transdiagnostics_files:
     transdiagnostics_df = pd.concat([transdiagnostics_df, pd.read_csv(file, index_col=0)])
 
 transdiagnostics_df
-        
+
 # %% DATASET COMPILATION
 
 num_trials = 50
@@ -45,7 +45,7 @@ for dataset in datasets:
             n_train_episodes_groups = [4, 5]
         else:
             n_train_episodes_groups = [5, 4]
-        
+
     elif "day3" in dataset:
         num_choices = 4
         reversal_probability = 0.05
@@ -72,7 +72,7 @@ for dataset in datasets:
                 f"Your goal is to maximize the number of coins earned over the {num_trials} rounds. The best strategy " + \
                 "involves balancing between betting and observing, with the optimum depending on the control over bet placement in different sets. " + \
                 f"The game is played over {num_tasks} sets of {num_trials} rounds each, after each of which you will be told how many points you earned.\n" + \
-                f"For the first {n_train_episodes}, you will receive a rough indication of the level of control at the start of the set; after that, you will need to infer it entirely from feedback." + \
+                f"For the first {n_train_episodes}, you will receive a rough indication of the level of control at the start of the set; after that, you will need to infer it entirely from feedback. " + \
                 f"Press {choice_options[0]} to observe, {choice_options[1]} to bet on the blue light, or {choice_options[2]} to bet on the red light.\n"
         elif "day2" in dataset:
             prompt = "You enter a casino. This is your second day playing the same game, so you already have some experience but with slightly different settings and rules. " \
@@ -84,7 +84,7 @@ for dataset in datasets:
                 f"Your goal is to maximize the number of coins earned over the {num_trials} rounds. The best strategy " + \
                 "involves balancing between betting and observing, with the optimum depending on the control over bet placement in different sets. " + \
                 f"The game is played over {num_tasks} sets of {num_trials} rounds each, after each of which you will be told how many points you earned.\n" + \
-                f"For the first {n_train_episodes}, you will receive a rough indication of the level of control at the start of the set; after that, you will need to infer it entirely from feedback." \
+                f"For the first {n_train_episodes}, you will receive a rough indication of the level of control at the start of the set; after that, you will need to infer it entirely from feedback. " \
                 f"Press {choice_options[0]} to observe, {choice_options[1]} to bet on the blue light, or {choice_options[2]} to bet on the red light.\n"
         elif "day3" in dataset:
             prompt = "You enter a casino. You have already played a similar version of this game previously, but today will involve a new action and mechanics. " \
@@ -123,13 +123,13 @@ for dataset in datasets:
                 prompt += f"In this set, you have {descriptor_control} control, meaning that your bets will succeed ({descriptor_machine}).\n"
             else:
                 prompt += "In this set, you will have to infer the level of control entirely from the feedback you receive.\n"
-            
+
             for trial in range(num_trials):
 
                 light = int(transitions[trial][0])
                 choice_original = transitions[trial][1]
                 choice_final = transitions[trial][2]
-                
+
                 ## remap choice_index
                 if choice_original == 0.5:
                     choice_index = 0
@@ -139,7 +139,7 @@ for dataset in datasets:
                     choice_index = 2
                 if choice_original == -1:
                     choice_index = 3
-            
+
                 prompt += f"Round {trial+1}/{num_trials}. You press <<{choice_options[choice_index]}>>. "
 
                 if choice_index == 0:
@@ -152,7 +152,7 @@ for dataset in datasets:
                     if choice_original == choice_final:
                         prompt += f"You executed this bet successfully.\n"
                     else:
-                        prompt += f"You didn't execute this bet successfully and it is switched to the other light.\m"
+                        prompt += f"You didn't execute this bet successfully and it is switched to the other light.\n"
                 else:
                     prompt += f"You slept and increased your control.\n"
 

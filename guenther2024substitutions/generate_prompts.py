@@ -67,7 +67,7 @@ for participant in participants_exp1:
 #################
 # Define number of participants and trials
 participants_exp2 = exp2["participant"].unique()
-trials_exp2 = range(exp1["trial_index"].max() + 1)
+trials_exp2 = range(exp2["trial_index"].max() + 1)
 
 # define initial prompt
 instruction2 = 'In this experiment, you will be presented with different single words and asked to find substitutes for them.\n'\

@@ -10,7 +10,7 @@ def randomized_choice_options(num_choices):
     choice_options = list(map(chr, range(65, 91)))
     return np.random.choice(choice_options, num_choices, replace=False)
 
-dataset = "zika2023_df.csv"
+dataset = "full_REV_data.csv"
 all_prompts = []
 
 
@@ -67,7 +67,7 @@ for participant in df['id'].unique():
 
     prompt += '\n'
 
-    prompt = prompt[:-2]
+    prompt = prompt[:-1]
 
     all_prompts.append({'text': prompt,
                         'experiment': dataset,

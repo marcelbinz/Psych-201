@@ -44,6 +44,7 @@ for experiment_no in [1, 2]:
             cols = line.strip().split(",")
             if cols[0] == "1":
                 start_idx = i
+                break
         if start_idx is None:
             missing_behaviours += 1
             continue

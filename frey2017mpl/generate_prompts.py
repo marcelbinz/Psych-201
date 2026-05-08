@@ -6,7 +6,7 @@ import numpy as np
 import sys
 sys.path.append("..")
 
-base_path = "/Volumes/Extreme SSD/MPI/mpi_tasks/basel_berlin_data"
+base_path = ""
 folders = ["main"]
 
 output_prompts = []
@@ -60,9 +60,9 @@ for folder in folders:
         trials_text = []
 
         session_text = (
-            "You will be presented with several pairs of lotteries in each trial. Each lottery offers specific chances of winning or losing points. Each point equates to 0.075 CHF or 0.05 EUR. \n"
+            "You will be presented with several pairs of lotteries in each trial. Each lottery offers specific chances of winning or losing points. Each point equates to 0.075 CHF or 0.05 EUR.\n"
             "Your task is to choose between lottery A and lottery B in each pair. Each choice affects your potential earnings.\n"
-            "The money earned in this study will be added to or subtracted from your starting bonus of 15 CHF or 10 EUR. In the two most extreme cases, you can either double or entirely lose this amount."
+            "The money earned in this study will be added to or subtracted from your starting bonus of 15 CHF or 10 EUR. In the two most extreme cases, you can either double or entirely lose this amount. "
             "No immediate feedback will be provided regarding the outcomes of your choices. "
         )
 

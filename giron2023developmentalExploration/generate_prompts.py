@@ -3,7 +3,7 @@ import pandas as pd
 import jsonlines
 #from utils import randomized_choice_options
 
-data_path = "/Users/kristinwitte/Library/CloudStorage/OneDrive-Personal/CPI/hackathons/psych201/giron2023.csv"
+data_path = "giron2023.csv"
 data = pd.read_csv(data_path)
 
 print(len(data["x"].dropna())) # get total number of choices
@@ -30,18 +30,18 @@ def get_prompt(ID):
             continue
 
         prompt += "Round " + str(block-1) + " of " + str(Nblocks-1) + ".\n"
-        
+
         chosen_x = np.int64(block_dat.loc[block_dat["trial"] == 0, "x"].item())
         chosen_y = np.int64(block_dat.loc[block_dat["trial"] == 0, "y"].item())
 
-        prompt += "The location [" + str(chosen_x) + ", " + str(chosen_y) + "] has already been revealed for you. It contains " + str(np.int64(block_dat.loc[block_dat["trial"] == 1, "z"].item())) + " points.\n"
+        prompt += "The location [" + str(chosen_x) + ", " + str(chosen_y) + "] has already been revealed for you. It contains " + str(np.int64(block_dat.loc[block_dat["trial"] == 0, "z"].item())) + " points.\n"
 
         for trial in range(1,(ntrials+1)):
             chosen_x = np.int64(block_dat.loc[block_dat["trial"] == trial, "x"].item())
             chosen_y = np.int64(block_dat.loc[block_dat["trial"] == trial, "y"].item())
             prompt += "On trial " + str(trial) + " of 25 you picked the location <<[" + str(chosen_x) + ", " + str(chosen_y) + "]>> and received " + str(np.int64(block_dat.loc[block_dat["trial"] == trial, "z"].item())) + " points.\n"
 
-        
+
         prompt += "End of the round.\n"
 
     return prompt
@@ -65,5 +65,5 @@ for ID in IDs:
                         'gender': data.loc[data["id"] == ID,"gender"].unique().item()})
 
 print(all_prompts)
-with jsonlines.open('giron2023developmentalExploration/prompts.jsonl', 'w') as writer:
+with jsonlines.open('prompts.jsonl', 'w') as writer:
     writer.write_all(all_prompts)

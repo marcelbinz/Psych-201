@@ -20,7 +20,7 @@ for file_path in mem_task:
     sub_id = file_path.split('/')[-1].split('_')[0]
     if 'probeAnalysis' not in mat_data.keys():
         continue
-    else: 
+    else:
         scene_names = mat_data['probeAnalysis']['sceneNames'][0][0][0]
         scene_names = [str(s[0]) for s in scene_names]
         creature_names = mat_data['probeAnalysis']['creatureNames'][0][0][0]
@@ -38,7 +38,7 @@ for file_path in explo_task:
     sub_id = file_path.split('/')[-1].split('_')[0]
     if 'probeStruct' not in mat_data.keys():
         continue
-    else: 
+    else:
         scene_names = mat_data['probeStruct']['sceneNames'][0][0][0]
         scene_names = [str(s[0]) for s in scene_names]
         creature_names = mat_data['probeStruct']['creatureNames'][0][0][0]
@@ -192,12 +192,13 @@ mem_df['highRewDiffImage'] = mem_df['highRewDiffImage'].replace(stimuli_dict)
 mem_df['newImage'] = mem_df['newImage'].replace(stimuli_dict)
 
 # replace imageOrder_1 - imageOrder_5 with the corresponding image name from columns highRewImage (1), lowRewImage (2), medRewImage (3), (4) highDiff, (5) newImage
-mem_df['imageOrder_1_name'] = mem_df['imageOrder_1'].replace([1, 2, 3, 4, 5], [mem_df['highRewImage'], mem_df['lowRewImage'], mem_df['medRewImage'], mem_df['highRewDiffImage'], mem_df['newImage']])
-mem_df['imageOrder_2_name'] = mem_df['imageOrder_2'].replace([1, 2, 3, 4, 5], [mem_df['highRewImage'], mem_df['lowRewImage'], mem_df['medRewImage'], mem_df['highRewDiffImage'], mem_df['newImage']])
-mem_df['imageOrder_3_name'] = mem_df['imageOrder_3'].replace([1, 2, 3, 4, 5], [mem_df['highRewImage'], mem_df['lowRewImage'], mem_df['medRewImage'], mem_df['highRewDiffImage'], mem_df['newImage']])
-mem_df['imageOrder_4_name'] = mem_df['imageOrder_4'].replace([1, 2, 3, 4, 5], [mem_df['highRewImage'], mem_df['lowRewImage'], mem_df['medRewImage'], mem_df['highRewDiffImage'], mem_df['newImage']])
-mem_df['imageOrder_5_name'] = mem_df['imageOrder_5'].replace([1, 2, 3, 4, 5], [mem_df['highRewImage'], mem_df['lowRewImage'], mem_df['medRewImage'], mem_df['highRewDiffImage'], mem_df['newImage']])
-mem_df['respKey_name'] = mem_df['respKey'].replace([1, 2, 3, 4, 5], [mem_df['imageOrder_1_name'], mem_df['imageOrder_2_name'], mem_df['imageOrder_3_name'], mem_df['imageOrder_4_name'], mem_df['imageOrder_5_name']])
+order_to_col = {1: 'highRewImage', 2: 'lowRewImage', 3: 'medRewImage', 4: 'highRewDiffImage', 5: 'newImage'}
+
+for i in range(1, 6):
+    col = f'imageOrder_{i}'
+    mem_df[f'{col}_name'] = mem_df.apply(lambda row: row[order_to_col[row[col]]], axis=1)
+
+mem_df['respKey_name'] = mem_df.apply(lambda row: row[f'imageOrder_{int(row["respKey"])}_name'], axis=1)
 
 # load the demographics dataset
 demographics_df = pd.read_csv('exploration/data/explo_demographics.csv')
@@ -211,7 +212,7 @@ all_prompts = []
 for sub_id in exploration_df['subID'].unique():
     exp_df = exploration_df[exploration_df['subID'] == sub_id]
     demo_df = demographics_df[demographics_df['subID'] == sub_id]
-    mem_df = mem_df[mem_df['subID'] == sub_id]
+    mem_df_part = mem_df[mem_df['subID'] == sub_id]
 
     sex = demo_df.sex.values[0]
     age = demo_df.age.values[0]
@@ -264,9 +265,9 @@ for sub_id in exploration_df['subID'].unique():
             prompt += f"You have entered {scene}. This region is owned by the {creature}.\n"\
 
             for trial in range(1,16):
-                trial_data = exp_df[(exp_df['blockID'] == block) & (exp_df['trialID'] == trial)] 
-                if trial_data.size != 0:  
-                    trial_data = trial_data.iloc[0]          
+                trial_data = exp_df[(exp_df['blockID'] == block) & (exp_df['trialID'] == trial)]
+                if trial_data.size != 0:
+                    trial_data = trial_data.iloc[0]
                     trial_stim1 = trial_data['trialStimID_1Name']
                     trial_stim2 = trial_data['trialStimID_2Name']
                     selected_stim = trial_data['selectedStimName']
@@ -275,12 +276,12 @@ for sub_id in exploration_df['subID'].unique():
                     prompt += f"You see two hiding spots: On the left side {trial_stim1} ({explo_options[0]}) and on the right side {trial_stim2} ({explo_options[1]}).\n"\
                             f"Which hiding spot do you choose?\n"\
                             f"You select <<{explo_options[key]}>> and {reward_dict[str(int(reward))]}.\n"
-                    
+
                     rt = trial_data['RT']
                     rt = rt * 1000 # convert to ms
                     RTs.append(rt)
     prompt += "\n"
-    if mem_df.size != 0 and mem_task_data[mem_task_data['subID'] == sub_id].size != 0: 
+    if mem_df_part.size != 0 and mem_task_data[mem_task_data['subID'] == sub_id].size != 0:
 
         instructions_memory = """Now that you've finished playing the game, we'd like to ask you a few questions about the different spots each creature used to hide their coins.
         For each creature you will be asked if you remember their favorite hiding spot.
@@ -289,7 +290,7 @@ for sub_id in exploration_df['subID'].unique():
         You see the magical fox in Blue Sky Woods and the following hiding spots:
         | a bird nest (M) | acrons (E) | an ant hill (X) | an apple tree (U) | a barn (T) |
 
-        Your task will be to select the fox's favorite spot to hide coins by pressing the respective letter of the hiding spot. 
+        Your task will be to select the fox's favorite spot to hide coins by pressing the respective letter of the hiding spot.
         You might see different hiding spots that the fox used to hide coins, but do your best to remember which hiding spot was the fox's favorite.
         For example, let's imagine the fox hid most of his coins behind the apple tree.
         To select the apple tree press 'U'.
@@ -297,9 +298,9 @@ for sub_id in exploration_df['subID'].unique():
 
         """
         prompt += instructions_memory
-        for block in range(1,11): 
+        for block in range(1,11):
             mem_opts = randomized_choice_options(num_choices=5)
-            mem_data = mem_df[mem_df['explorationBlock'] == block].iloc[0]
+            mem_data = mem_df_part[mem_df_part['explorationBlock'] == block].iloc[0]
             mem_task = mem_task_data[(mem_task_data['subID'] == sub_id) & (mem_task_data['blockID'] == block)].iloc[0]
             prompt += f"You see the {mem_task['creatureNames']} in {mem_task['sceneNames']} and the following hiding spots:\n" \
                     f"| {mem_data['imageOrder_1_name']} ({mem_opts[0]}) | {mem_data['imageOrder_2_name']} ({mem_opts[1]}) | {mem_data['imageOrder_3_name']} ({mem_opts[2]}) | {mem_data['imageOrder_4_name']} ({mem_opts[3]}) | {mem_data['imageOrder_5_name']} ({mem_opts[4]}) |\n" \

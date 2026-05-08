@@ -2,7 +2,7 @@
 import jsonlines
 from datasets import load_dataset
 
-datasets = ['training']
+datasets = ['testing_t1']
 
 side_information = {}
 for dataset in datasets:
@@ -42,7 +42,7 @@ for dataset in datasets:
                 dict_partcipants['diagnosis'] = obj['diagnosis']
             else:
                 dict_partcipants['diagnosis'] = 'N/A'
-                
+
             side_information[(obj['experiment'], obj['participant'])] = dict_partcipants
 
 full_data = []
@@ -54,9 +54,9 @@ for dataset in datasets:
             if (str(obj['experiment']), str(obj['participant'])) in side_information.keys():
                 assert len(obj['experiment'].split('/')) == 2
                 full_data.append({
-                    'text': obj['text'], 
-                    'study': str(obj['experiment']).split('/')[0], 
-                    'experiment': str(obj['experiment']), 
+                    'text': obj['text'],
+                    'study': str(obj['experiment']).split('/')[0],
+                    'experiment': str(obj['experiment']),
                     'participant': str(obj['participant']),
                     'RTs': side_information[(str(obj['experiment']), str(obj['participant']))]['RTs'],
                     'gender': side_information[(str(obj['experiment']), str(obj['participant']))]['gender'],
@@ -69,9 +69,9 @@ for dataset in datasets:
             else:
                 assert len(obj['experiment'].split('/')) == 2
                 full_data.append({
-                    'text': obj['text'], 
+                    'text': obj['text'],
                     'study': str(obj['experiment']).split('/')[0],
-                    'experiment': str(obj['experiment']), 
+                    'experiment': str(obj['experiment']),
                     'participant': str(obj['participant']),
                     'RTs': [],
                     'gender': 'N/A',
@@ -83,5 +83,5 @@ for dataset in datasets:
 
 
 print(len(full_data))
-with jsonlines.open('psych101/psych101_with_side_information.jsonl', 'w') as writer:
+with jsonlines.open('psych101-testing/psych101_with_side_information.jsonl', 'w') as writer:
     writer.write_all(full_data)

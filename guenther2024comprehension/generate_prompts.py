@@ -56,8 +56,8 @@ for participant in participants_exp1:
             "participant": participant,
         }
     )
-    
-    
+
+
 ################
 # Experiment 2 #
 ################
@@ -82,8 +82,8 @@ for participant in participants_exp2:
             response = exp2_trial["response"].iloc[0]
             datapoint = f"{stimulus.strip()}. You enter <<{response}>>.\n"
             individual_prompt += datapoint
-    prompt += '\n'
-    
+    individual_prompt += '\n'
+
     # Store complete prompt with metadata
     all_prompts.append(
         {

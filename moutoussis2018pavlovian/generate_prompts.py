@@ -127,7 +127,9 @@ for d in data_files_eighteen:
         continue
     if id_number in ids_six_month:
         count_follow_ups_six_and_eighteen += 1
-        gng_eighteen_instr = gng_eighteen_instr.replace("18 months", "12 months")
+        instr = gng_eighteen_instr.replace("18 months", "12 months")
+    else:
+        instr = gng_eighteen_instr
     index_of_participant = ids.index(id_number)
     ids.pop(index_of_participant)
     mat_data = scipy.io.loadmat(os.path.join(dir_path_eighteen, d))
@@ -135,7 +137,7 @@ for d in data_files_eighteen:
     stimuli = mat_data["LearnVerData"][:, 1]
     choices  = mat_data["LearnVerData"][:, 12]
     rewards = mat_data["LearnVerData"][:, 16]
-    new_text = f"{output[index_of_participant]['text']}\n\n{gng_eighteen_instr}"
+    new_text = f"{output[index_of_participant]['text']}\n\n{instr}"
     for n, s, c, r in zip(trial_nums, stimuli, choices, rewards):
         if int(c) == 3:
             continue

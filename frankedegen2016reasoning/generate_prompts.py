@@ -3,8 +3,8 @@ import sys
 import jsonlines
 import pandas as pd
 from tqdm import tqdm
+sys.path.append("..")
 from utils import randomized_choice_options
-sys.path.append("")
 json_out = []
 CHARACTER_LIMIT = 32000
 
@@ -84,7 +84,7 @@ for participant in tqdm(df.workerid.unique()):
                 distractor = "robot with a " + target_obj
             else:
                 target_obj = random.choice(list(set_1.difference({"robot"})))
-                target = target_obj + "with a " + message
+                target = target_obj + " with a " + message
                 competitor_obj = set_1.difference({"robot", target_obj}).pop()
                 competitor = competitor_obj + " with a " + message
                 distractor = target_obj + " with a scarf"
@@ -293,4 +293,3 @@ for participant in tqdm(df.workerid.unique()):
 # Save output to JSONL file
 with jsonlines.open("prompts.jsonl", "w") as writer:
     writer.write_all(json_out)
-

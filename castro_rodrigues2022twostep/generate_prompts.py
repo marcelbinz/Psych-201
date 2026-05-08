@@ -16,7 +16,7 @@ from Two_step import  he
 # log files downloaded from
 #   https://github.com/ThomasAkam/Two-step_explicit_knowledge
 #   folder "data"
-#   the folder "data" must be placed in the source address "PSYCH-201" to be 
+#   the folder "data" must be placed in the source address "PSYCH-201" to be
 #   accessible functions in Two_step
 datasets = ["healthy-volunteers_changing_no-debrief_LS",
             "healthy-volunteers_changing-task_debrief_LS",
@@ -42,7 +42,7 @@ all_prompts = []
 
 UpDown = ["up","down"]
 LeftRight = ["left","right"]
-Reward = ["a coin","no coin"]
+Reward = ["no coin", "a coin"]
 
 
 debriefing_fixedA = "We will now explain the structure of the game.\n"\
@@ -164,7 +164,7 @@ for i_dataset, dataset in enumerate(datasets):
                 prompt += 'You press the arrow key for <<' + LeftRight[st[index_trial]] + '>>.\n'
                 RTs.append(rt2[index_trial])
                 prompt += 'You received ' + Reward[ot[index_trial]] + '.\n'
-                
+
             prompt += "Thank for your participation. You just completed Session " + str(i_session) + ".\n"
         prompt += '\n'
 

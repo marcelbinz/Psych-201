@@ -14,7 +14,7 @@ import sys
 sys.path.append("..")
 from utils import randomized_choice_options
 
-datasets = ["../../range.csv"]
+datasets = ["range.csv"]
 all_prompts = []
 keys=['participant','phase','trial','context','left_option','right_option',
       'choice','accuracy','outcome','coutcome','rt','cumulated',
@@ -36,8 +36,8 @@ for dataset in datasets:
         choice_options = randomized_choice_options(num_choices=9)
         prompt = 'You have to repeatedly choose between multiple stimuli by pressing their corresponding key.\nEach stimulus delivers a reward (0, 1 or 10) once it is selected.'
         RTs = []
-        
-            
+
+
         for phase in range(3):
             df_phase = df_participant[(df_participant['phase'] == phase)]
             if phase == 0:
@@ -53,17 +53,17 @@ for dataset in datasets:
                 else:
                     prompt += '\nNo feedback is provided. \n'
                 prompt += '\nYou are now in a training phase that familiarizes you with the response modalities:\n'
-           
+
             if phase == 1:
                 prompt += '\nYou are now in a learning phase:\n'
             if phase == 2:
                 if feedback == 'complete':
                     prompt += '\nYou are now in a transfer phase where you are presented with pairs of stimuli taken from the learning phase. Not all pairs would have been necessarily displayed together before.You get feedback about the values of all encountered stimuli after each choice. Please indicate which of the stimuli was the one with the highest value by pressing the corresponding key:\n'
-                if feedback == 'partial':
+                elif feedback == 'partial':
                     prompt += '\nYou are now in a transfer phase where you are presented with pairs of stimuli taken from the learning phase. Not all pairs would have been necessarily displayed together before.You get feedback about the value of the chosen stimulus after each choice. Please indicate which of the stimuli was the one with the highest value by pressing the corresponding key:\n'
                 else:
                     prompt += '\nYou are now in a transfer phase where you are presented with pairs of stimuli taken from the learning phase. Not all pairs would have been necessarily displayed together before. No more feedback is provided. Please indicate which of the stimuli was the one with the highest value by pressing the corresponding key:\n'
-                    
+
             for index, row in df_phase.iterrows():
                 RTs.append(row.rt.item())
                 available_options = ''
@@ -75,13 +75,13 @@ for dataset in datasets:
                 if row.choice.item() == 1:
                     choice_idx = int(row.right_option)
                 choice = choice_options[choice_idx]
-                
+
                 if row.context.item()<5:
                     out = str(int(row.outcome.item()*context_values[int(row.context.item()-1)]))
                     cout= str(int(row.coutcome.item()*context_values[int(row.context.item()-1)]))
                 else:
-                    out = str(int(row.outcome.item()*(10*(row.accuracy.item()==1)+row.accuracy.item()==0)))
-                    cout= str(int(row.outcome.item()*(10*(row.accuracy.item()==0)+row.accuracy.item()==1)))
+                    out = str(int(row.outcome.item() * (10*(row.accuracy.item()==1) + (row.accuracy.item()==0))))
+                    cout= str(int(row.outcome.item() * (10*(row.accuracy.item()==0) + (row.accuracy.item()==1))))
 
                 if feedback == 'complete':
                     stimulus0_idx = '' if math.isnan(row.left_option.item()) else str(int(row.left_option))

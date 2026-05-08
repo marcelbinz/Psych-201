@@ -18,7 +18,7 @@ for participant in range(num_participants):
     prompt = 'You are repeatedly presented with a safe option and a risky option.\n'
     prompt += 'In each round, you have to select one of the two options.\n'
     prompt += 'The safe option always leads to the same outcome (OS).\n'
-    prompt += 'The risky option can lead to two possible outcomes (O1 or 02).\n'
+    prompt += 'The risky option can lead to two possible outcomes (O1 or O2).\n'
     prompt += 'You can select the safe option by pressing ' + choice_options[0] + ' and the risky option by pressing ' + choice_options[1] + '.\n'
     prompt += 'Following your selection, you observe an outcome and collect the points associated with it.\n'
     prompt += 'Your goal is to maximize the amount of collected points across the entire experiment.\n\n'

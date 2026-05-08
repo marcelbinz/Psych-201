@@ -32,8 +32,8 @@ dis_dict = dict(dis_cards)
 
 
 for participant in participants:
-    
-    
+
+
     choice_options = randomized_choice_options(num_choices=2)
     df_participant = choices.loc[participant]
     age = int(np.floor(df_participant['age_years'].values[0])) # floor the continuous age variable to round down to their 'conventional' age
@@ -45,13 +45,13 @@ for participant in participants:
         suffix2 = '' if adv_losses[i-1] == 1 else 's'
         demo_string_adv += f'{i}) {adv_wins[i-1]} smiling face{suffix1} and {adv_losses[i-1]} frowning face{suffix2}. '
 
-    
+
     demo_string_dis = f'The first three cards from deck {choice_options[1]} are: '
     for i in range(1, 4):
         suffix1 = '' if dis_wins[i-1] == 1 else 's'
         suffix2 = '' if dis_losses[i-1] == 1 else 's'
         demo_string_dis += f'{i}) {dis_wins[i-1]} smiling face{suffix1} and {dis_losses[i-1]} frowning face{suffix2}. '
-    
+
     # shuffle order of which one you demonstrate first
     demo_strings_idx = np.random.permutation([0, 1])
     demo_strings = [demo_string_adv, demo_string_dis]
@@ -61,11 +61,11 @@ for participant in participants:
     prompt ='In front of you there are two decks of face-down cards labeled ' + choice_options[introduction_idx[0]] + ' and ' +  choice_options[introduction_idx[1]] + '.\n'\
             'You will make 50 choices between the two decks of cards. After picking a card, it will be turned to reveal a number of smiling and frowning faces.\n'\
             'You get an initial endowment of 10 M&Ms.\n'\
-            'You can gain or lose M&Ms from your endownment based on the net difference between the number of smiling and frowning faces.\n'\
+            'You can gain or lose M&Ms from your endowment based on the net difference between the number of smiling and frowning faces.\n'\
             'To demonstrate, we will show you the first three cards from both decks, and remove them from the decks for the subsequent experiment.\n'\
             f'{demostring}'\
-            'At the end of the experiment you get to keep the remainding M&Ms in your possession.\n'
-    
+            'At the end of the experiment you get to keep the remaining M&Ms in your possession.\n'
+
     for trial in range(num_trials):
         chose_adv = int(df_participant['choose_adv'].values[trial])
         adv_top_card = df_participant['adv_top_card'].values[trial]
@@ -92,9 +92,9 @@ for participant in participants:
         else:
             outcome = 'gain'
             #card_win, card_loss = dis_wins[trial+3], dis_losses[trial+3]
-        prompt += f'You choose deck <<{choice_options[1-chose_adv]}>>. You see {card_win} smiling face{suffix1} and {card_loss} frowing face{suffix2}. You {outcome} {abs_gain} M&Ms.\n'
+        prompt += f'You choose deck <<{choice_options[1-chose_adv]}>>. You see {card_win} smiling face{suffix1} and {card_loss} frowning face{suffix2}. You {outcome} {abs_gain} M&Ms.\n'
         #continue
-    prompt = prompt[:-2]
+    prompt = prompt[:-1]
     all_prompts.append({'text': prompt,
             'experiment': 'breslav2022shuffle/' + 'exp1',
             'participant': str(participant),

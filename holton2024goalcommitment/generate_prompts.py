@@ -14,7 +14,7 @@ post_scan_path = mri_datapath + "/post_scan_session"
 post_scan_files = [f for f in os.listdir(post_scan_path) if f.endswith('.csv')]
 post_scan_datasets = [os.path.join(post_scan_path, f) for f in post_scan_files]
 
-# Get all CSV files from scan session 
+# Get all CSV files from scan session
 scan_path = mri_datapath + "/scan_session"
 scan_files = [f for f in os.listdir(scan_path) if f.endswith('.csv')]
 scan_datasets = [os.path.join(scan_path, f) for f in scan_files]
@@ -52,8 +52,8 @@ for participant in post_scan_data['participant'].unique():
 
 # Add Age and Group info
 scan_data['age'] = "18-35"
-post_scan_data['age'] = "18-35" 
-control_data['age'] = "50-75" 
+post_scan_data['age'] = "18-35"
+control_data['age'] = "50-75"
 patient_data['age'] = np.nan
 
 scan_data['lesion-group'] = "no-lesion-control"
@@ -84,8 +84,8 @@ for idx,participant in enumerate(participant_ids):
     group = df_participant["lesion-group"].unique().item()
     num_trials = df_participant['total_trial_number'].max() + 1
 
-    current_prompt = f'In this game, your aim is to fill as many fishing nets as possible with seafood.\nYou will be given a net, and you have to fill it with seafood until it is full.\nYou get a point every time you fill a net.\nYou can fill your net with fish, octopus or crab.\nHowever, here is the key part: You can only collect one type of seafood in your net at a time.\nIf you decide to choose a different type of seafood from the type currently in your net, you will have to throw out all the seafood you have already caught.\nThe available quantities of fish, octopus and crab in your fishing patch will gradually change over time.\nSometimes, one type of seafood might become more bountiful as a new population enters the fishing patch, or one type of seafood might become more scarce as a population leaves.\nYou will have {num_trials-1} total to play.\nTry and fill as many nets as possible!\n\n'
-    
+    current_prompt = f'In this game, your aim is to fill as many fishing nets as possible with seafood.\nYou will be given a net, and you have to fill it with seafood until it is full.\nYou get a point every time you fill a net.\nYou can fill your net with fish, octopus or crab.\nHowever, here is the key part: You can only collect one type of seafood in your net at a time.\nIf you decide to choose a different type of seafood from the type currently in your net, you will have to throw out all the seafood you have already caught.\nThe available quantities of fish, octopus and crab in your fishing patch will gradually change over time.\nSometimes, one type of seafood might become more bountiful as a new population enters the fishing patch, or one type of seafood might become more scarce as a population leaves.\nYou will have {num_trials-1} trials total to play.\nTry and fill as many nets as possible!\n\n'
+
     for trial in range(1,num_trials):
 
         df_trial = df_participant[(df_participant['total_trial_number'] == trial)]
@@ -105,7 +105,7 @@ for idx,participant in enumerate(participant_ids):
 
             current_prompt += f"{trial_text}You choose to collect <<{choice}>>. {choice_amount} of {choice} is added to your net.\n"
         else:
-             
+
             goal_idx = df_participant.loc[df_participant['total_trial_number'] == trial-1, 'choice'].item()
             goal_item = ['fish','octopus','crab'][goal_idx-1]
 

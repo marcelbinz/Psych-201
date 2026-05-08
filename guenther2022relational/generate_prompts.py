@@ -49,11 +49,11 @@ for participant in participants:
     df_participant = df[df['participant'] == participant]
     participant = participant.item()
     age = df_participant['age'].iloc[0].item()
-    
+
     # Start with instruction text
     prompt = instruction
     rt_list = []
-    
+
     # Add each trial's word and response
     for trial in trials:
         df_trial = df_participant.loc[df_participant['trial_index'] == trial]
@@ -61,10 +61,10 @@ for participant in participants:
             # Extract word and participant's response
             word = df_trial['stimulus'].iloc[0]
             response = df_trial['response'].iloc[0]
-            datapoint = f'What does "{word}" mean?. You answer <<{response}>>.\n'
-            prompt += datapoint    
+            datapoint = f'What does "{word}" mean? You answer <<{response}>>.\n'
+            prompt += datapoint
     prompt += '\n'
-    
+
     # Store complete prompt with metadata
     all_prompts.append({
         'text': prompt,

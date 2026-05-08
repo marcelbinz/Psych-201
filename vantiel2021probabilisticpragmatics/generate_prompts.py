@@ -340,7 +340,7 @@ instructions_trial = (
 
 for participant in tqdm(df.submission_id.unique()):
     # create a future json entry for the participant
-    par_dict = {"text": task_instructions, "experiment": 'vantiel2020-probabilistic_pragrmatics/exp3.csv',
+    par_dict = {"text": task_instructions, "experiment": 'vantiel2020-probabilistic_pragmatics/exp3.csv',
                 "participant": str(participant)}
     # reindex and drop the old index
     par_df = df[df.submission_id == participant].reset_index(drop=True)

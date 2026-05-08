@@ -4,7 +4,7 @@ import json
 from glob import glob
 import numpy as np
 import pandas as pd
-from utils import * 
+from utils import *
 import math
 
 def map_experiment_name(old_name, text):
@@ -34,7 +34,7 @@ def map_experiment_name(old_name, text):
         return remapping[old_name]
     else:
         return old_name
-    
+
 def map_text(text, experiment):
     if experiment in ['vantiel2020probabilistic_pragmatics/exp2a.csv', 'vantiel2022meaninguse/exp2', 'vantiel2021probabilisticpragmatics/exp4.csv', 'vantiel2020probabilistic_pragmatics/exp2b.csv', 'olschewski2025optimal/1', 'witte2024interventionStudy', 'hu2023lm-pragmatics', 'Ying2023NIPE']:
       text = text.replace(">>\n", ">>.\n")
@@ -46,6 +46,8 @@ def map_text(text, experiment):
       text = text.replace(">>", ">> dollars")
     if experiment == 'holton2024goalcommitment':
       text = text.replace("collect<<", "collect <<")
+
+    text = text.replace("<<skip>>", "<<skip>>.").replace("<<-", "<< -").replace("<<think>>", "<< think>>").replace("More Details >>", "More Details ->")
 
     return text
 
@@ -65,13 +67,13 @@ total_experiments = 0
 total_choices = 0
 
 for file in files:
-    
+
     total_experiments += 1
     exp_participants = 0
- 
+
     if True:
         with jsonlines.open(file, loads=json.loads) as reader:
-            # study name 
+            # study name
             study_name = file.split('/')[0]
             print(study_name)
 
@@ -79,7 +81,7 @@ for file in files:
                 # check that mandatory keys are there
                 assert 'text' in obj.keys()
                 assert 'participant' in obj.keys()
-                assert 'experiment' in obj.keys()               
+                assert 'experiment' in obj.keys()
                 all_keys.update(obj.keys())
 
                 # check that RTs match number of choices
@@ -92,25 +94,38 @@ for file in files:
                     dict_partcipants = {
                         'text': obj['text'],
                         'study': obj['study'],
-                        'experiment': str(obj['experiment']), 
+                        'experiment': str(obj['experiment']),
                         'participant': str(obj['participant']),
+                        'is_psych101': True,
+                        'is_psych101_test': False,
+                    }
+                elif study_name == 'psych101-testing':
+                    dict_partcipants = {
+                        'text': obj['text'],
+                        'study': obj['study'],
+                        'experiment': str(obj['experiment']),
+                        'participant': str(obj['participant']),
+                        'is_psych101': True,
+                        'is_psych101_test': True,
                     }
                 else:
                     fixed_experiment_name = map_experiment_name(str(obj['experiment']), obj['text'])
                     dict_partcipants = {
                         'text': map_text(obj['text'], fixed_experiment_name),
                         'study': study_name,
-                        'experiment': fixed_experiment_name, 
+                        'experiment': fixed_experiment_name,
                         'participant': str(obj['participant']),
+                        'is_psych101': False,
+                        'is_psych101_test': False,
                     }
 
                 # rename variables
                 if "STICSAsoma" in obj.keys():
-                    obj["STICSA-T somatic"] = obj.pop("STICSAsoma")                
+                    obj["STICSA-T somatic"] = obj.pop("STICSAsoma")
                 if "STICSAcog" in obj.keys():
                     obj["STICSA-T cognitive"] = obj.pop("STICSAcog")
                 if "STAI" in obj.keys():
-                    obj["STAI-S"] = obj.pop("STAI")                
+                    obj["STAI-S"] = obj.pop("STAI")
                 if "stai" in obj.keys():
                     obj["STAI-T"] = obj.pop("stai")
                 if "stai_total" in obj.keys():
@@ -157,7 +172,7 @@ for file in files:
                 else:
                     dict_partcipants['clinical diagnosis'] = 'N/A'
 
-                # add questionaire stuff                
+                # add questionaire stuff
                 if 'STICSA-T somatic' in obj.keys():
                     dict_partcipants['STICSA-T somatic'] = str(obj['STICSA-T somatic'])
                 else:
@@ -167,7 +182,7 @@ for file in files:
                     dict_partcipants['STICSA-T cognitive'] = str(obj['STICSA-T cognitive'])
                 else:
                     dict_partcipants['STICSA-T cognitive'] = 'N/A'
-                
+
                 if 'STAI-S' in obj.keys():
                     dict_partcipants['STAI-S'] = str(obj['STAI-S'])
                 else:
@@ -182,7 +197,7 @@ for file in files:
                     dict_partcipants['IUS'] = str(obj['IUS'])
                 else:
                     dict_partcipants['IUS'] = 'N/A'
-                
+
                 if 'RRQ' in obj.keys():
                     dict_partcipants['RRQ'] = str(obj['RRQ'])
                 else:
@@ -211,7 +226,7 @@ for file in files:
                 if 'sds_total' in obj.keys():
                     dict_partcipants['SDS'] = str(int(obj['sds_total']))
                 else:
-                    dict_partcipants['SDS'] = 'N/A'                
+                    dict_partcipants['SDS'] = 'N/A'
 
                 if 'oci_total' in obj.keys():
                     dict_partcipants['OCI'] = str(int(obj['oci_total']))
@@ -221,13 +236,13 @@ for file in files:
                 if 'PHQ' in obj.keys():
                     dict_partcipants['PHQ-9'] = str(int(obj['PHQ']))
                 else:
-                    dict_partcipants['PHQ-9'] = 'N/A' 
+                    dict_partcipants['PHQ-9'] = 'N/A'
 
                 if 'phq8' in obj.keys():
                     dict_partcipants['PHQ-8'] = str(int(obj['phq8']))
                 else:
-                    dict_partcipants['PHQ-8'] = 'N/A'       
-       
+                    dict_partcipants['PHQ-8'] = 'N/A'
+
                 if 'bas_drive' in obj.keys():
                     dict_partcipants['BAS Drive'] = str(int(obj['bas_drive']))
                 else:
@@ -237,7 +252,7 @@ for file in files:
                     dict_partcipants['BAS Fun Seeking'] = str(int(obj['bas_fun_seeking']))
                 else:
                     dict_partcipants['BAS Fun Seeking'] = 'N/A'
-                
+
                 if 'bas_reward_response' in obj.keys():
                     dict_partcipants['BAS Reward Responsiveness'] = str(int(obj['bas_reward_response']))
                 else:
@@ -264,9 +279,9 @@ for file in files:
                 total_choices += dict_partcipants['text'].count("<<")
 
     number_participants.append(exp_participants)
-        
+
 print('Number of participants:', len(full_data))
-print('Maximum number of participants', np.array(number_participants).max()) 
+print('Maximum number of participants', np.array(number_participants).max())
 print('Total choices:', total_choices)
 
 print(all_keys)

@@ -30,7 +30,7 @@ for dataset in datasets:
 
         prompt = "In this task, you have to repeatedly choose between two options labeled " + choice_options[0] + " and " +  choice_options[1] + ".\n"\
          "You can choose an option by pressing its corresponding key.\n"\
-         "Each option gives would hypothetically lead to you earning a specified amount of money in a specified amount of time.\n\n"
+         "Each option would hypothetically lead to you earning a specified amount of money in a specified amount of time.\n\n"
         for index, row in df_participant.iterrows():
             c = int(row['right_picked'])
             left_val = round(row['left_val'], 2)

@@ -76,18 +76,18 @@ valence_mapping = {
 
 # study-specific prompts
 study_prompts = {
-    "Study 1": "You will be asked to estimate the likelihood of you personally experiencing a life event on a 0-100% scale, where 0% means you are absolutely certain that you will not experience the event and 100% means you are absolutely certain that you will experience the event. " 
+    "Study 1": "You will be asked to estimate the likelihood of you personally experiencing a life event on a 0-100% scale, where 0% means you are absolutely certain that you will not experience the event and 100% means you are absolutely certain that you will experience the event. "
                  "You will also be asked to estimate the likelihood of an average person experiencing the same life event. "
                  "You will then be shown the actual likelihood for an average person to experience the life event, according to official sources, and then you will be asked to revise your estimate of the likelihood that you will personally experience the life event. "
                  "Once you have provided initial and revised estimates for each life event, you will then be asked to rate each of those events based on how positive or negative you feel about them on a 5-point scale where 1 is \"extremely negative\", 2 is \"somewhat negative\", 3 is \"neither positive nor negative\", 4 is \"somewhat positive\" and 5 is \"extremely positive\". ",
-    
-    "Study 2": "You will be asked to estimate the likelihood of you personally experiencing a life event on a 0-100% scale, where 0% means you are absolutely certain that you will not experience the event and 100% means you are absolutely certain that you will experience the event. " 
+
+    "Study 2": "You will be asked to estimate the likelihood of you personally experiencing a life event on a 0-100% scale, where 0% means you are absolutely certain that you will not experience the event and 100% means you are absolutely certain that you will experience the event. "
                  "You will also be asked to estimate the likelihood of an average person experiencing the same life event. "
                  "You will then be shown the actual likelihood for an average person to experience the life event, according to official sources. "
                  "Once you have provided initial estimates for each life event, and you will then be shown each life again and asked to provide a revised estimate of the likelihood that you will personally experience the life event. "
                  "Once you have provided initial and revised estimates for each life event, you will then be asked to rate each of those events based on how positive or negative you feel about them on a 5-point scale where 1 is \"extremely negative\", 2 is \"somewhat negative\", 3 is \"neither positive nor negative\", 4 is \"somewhat positive\" and 5 is \"extremely positive\". ",
-    
-    "Study 3": "You will be asked to estimate the likelihood of you personally experiencing a life event on a 0-100% scale, where 0% means you are absolutely certain that you will not experience the event and 100% means you are absolutely certain that you will experience the event. " 
+
+    "Study 3": "You will be asked to estimate the likelihood of you personally experiencing a life event on a 0-100% scale, where 0% means you are absolutely certain that you will not experience the event and 100% means you are absolutely certain that you will experience the event. "
                  "You will also be asked to estimate the likelihood of an average person experiencing the same life event. "
                  "You will then be shown the actual likelihood for an average person to experience the life event, according to official sources, and then you will then be asked to rate the event based on how positive or negative you feel about it on a 5-point scale where 1 is \"extremely negative\", 2 is \"somewhat negative\", 3 is \"neither positive nor negative\", 4 is \"somewhat positive\" and 5 is \"extremely positive\". "
                  "Once you have provided initial estimates and rated how positive or negative you feel about each life event, and you will then be shown each life event again and asked to provide a revised estimate of the likelihood that you will personally experience the life event. "
@@ -108,18 +108,18 @@ with open(output_file, "w") as outfile:
     for study, path in file_paths.items():
         # read in a study's dataset as df
         df = pd.read_csv(path)
-        
+
         # group data by participant
         for participant, group in df.groupby("Participant"):
             experiment_texts = [study_prompts[study]]
             event_texts = []
             event_texts2 = []
             valence_texts = []
-            
+
             for _, row in group.iterrows():
                 valence_text = valence_mapping.get(row['Valence'], "unknown")
                 event_description = life_events.get(row['Event'], "Unknown event")
-                
+
                 if study == "Study 1":
                     event_texts.append(
                         f"You view the following event: '{event_description}'. "
@@ -129,7 +129,7 @@ with open(output_file, "w") as outfile:
                         f"Now, how likely do you think it is that you will personally experience this event? You enter <<{row['E2']}%>> "
                     )
                     valence_texts.append(
-                        f"You view event following event again: '{event_description}'. "
+                        f"You view the following event again: '{event_description}'. "
                         f"How would you feel about experiencing this event? You indicate it would be <<{valence_text}>> "
                     )
                 elif study == "Study 2":
@@ -140,11 +140,11 @@ with open(output_file, "w") as outfile:
                         f"You learn that there is actually a {row['BR']}% chance that an average person experiences this event, according to official sources. "
                     )
                     event_texts2.append(
-                        f"You view event following event again: '{event_description}'. "
+                        f"You view the following event again: '{event_description}'. "
                         f"Now, how likely do you think it is that you will personally experience this event? You enter <<{row['E2']}%>> "
                     )
                     valence_texts.append(
-                        f"You view event following event again: '{event_description}'. "
+                        f"You view the following event again: '{event_description}'. "
                         f"How would you feel about experiencing this event? You indicate it would be <<{valence_text}>> "
                     )
                 elif study == "Study 3":
@@ -156,17 +156,17 @@ with open(output_file, "w") as outfile:
                         f"How would you feel about experiencing this event? You indicate it would be <<{valence_text}>> "
                     )
                     event_texts2.append(
-                        f"You view event following event again: '{event_description}'. "
+                        f"You view the following event again: '{event_description}'. "
                         f"Now, how likely do you think it is that you will personally experience this event? You enter <<{row['E2']}%>> "
                     )
-            
+
             experiment_texts.extend(event_texts)
             experiment_texts.extend(event_texts2)
             experiment_texts.extend(valence_texts)
             entry = {"text": " ".join(experiment_texts), "experiment": experiment_ids[study], "participant": participant}
             outfile.write(json.dumps(entry) + "\n")
 
-# create a zip 
+# create a zip
 zip_filename = "prompts_jsonl.zip"
 with zipfile.ZipFile(zip_filename, "w", zipfile.ZIP_DEFLATED) as zipf:
     zipf.write(output_file)

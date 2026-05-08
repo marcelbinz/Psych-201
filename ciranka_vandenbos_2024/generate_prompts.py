@@ -8,9 +8,9 @@ import jsonlines
 from utils import randomized_choice_options
 
 # CSV file downloaded from
-#   https://arc-git.mpib-berlin.mpg.de/ciranka/developing_marbles 
+#   https://arc-git.mpib-berlin.mpg.de/ciranka/developing_marbles
 #   folder A_raw_data
-datasets = ["TidyMarbleNew.csv"] 
+datasets = ["TidyMarbleNew.csv"]
 all_prompts = []
 
 
@@ -63,7 +63,7 @@ for dataset in datasets:
         df_participant_solo   = df_participant[(df_participant.test_part == 'SoloChoice')]
         df_participant_social = df_participant[(df_participant.test_part == 'SocialChoice')]
 
-    
+
         # general instruction
         prompt = "In this task, you are repeatedly presented with two marble jars labeled " + choice_options[0] + " and " +  choice_options[1] + ".\n"\
             "At each trial, you have to decide which of the two jars you want to draw a marble from.\n"\
@@ -71,9 +71,9 @@ for dataset in datasets:
             "When you select one of the jars, a marble is randomly drawn from that jar at the end of the trial.\n"\
             "There are more than 1000 marbles in each jar, which is a lot.\n"\
             "When a blue marble is drawn, you will be credited with the bonus points corresponding to that jar.\n"\
-            "These bonus boints of each jar will be communicated with you at each trial.\n"\
+            "These bonus points of each jar will be communicated with you at each trial.\n"\
             "If a red marble is drawn, you do not receive a bonus.\n"\
-            "At each trial, one of the two jars conatins only blue marbles.\n"\
+            "At each trial, one of the two jars contains only blue marbles.\n"\
             "A jar full of blue marbles is a safe bet if you choose to go for it.\n"\
             "This means that, if you choose this jar in the trial, then you will receive the bonus points of this jar with a probability of 100 percent.\n"\
             "The other jar offers higher bonus points.\n"\
@@ -110,7 +110,7 @@ for dataset in datasets:
             risky_value = df_trial.valueGamble
             p_blue = df_trial.probGamble * 100
             # sampling of marbles
-            n_blue, n_red, ifopaque = convert_X(df_trial.red_marbles, df_trial.blue_marbles)
+            n_red, n_blue, ifopaque = convert_X(df_trial.red_marbles, df_trial.blue_marbles)
             p_blue_hat = df_trial.PercentBlueEstimate
             p_blue_hat_conf = df_trial.HowSure
             # payoff
@@ -197,7 +197,7 @@ for dataset in datasets:
                     prompt += 'You report <<' + str(p_blue_hat_conf) + '>>.\n'
                     RTs.append(np.nan)
             else:
-                prompt += 'In this trial, ' + str(p_blue) + ' percent of marbles in the risky jar are blue, and the other ' + str(100 - p_blue) + 'percent of marbles are red.\n'
+                prompt += 'In this trial, ' + str(p_blue) + ' percent of marbles in the risky jar are blue, and the other ' + str(100 - p_blue) + ' percent of marbles are red.\n'
 
             prompt +=     'Jar ' + choice_options[safe_jar]  + ' is the safe jar with '  + str(safe_value)  + ' bonus points,'
             prompt += 'and jar ' + choice_options[risky_jar] + ' is the risky jar with ' + str(risky_value) + ' bonus points.\n'
@@ -206,7 +206,7 @@ for dataset in datasets:
             RTs.append(df_trial.rt)
 
             if trial % 5 == 0:
-                prompt += 'So far in the experiment, you recived ' + str(total_reward) + ' bonus points in total.\n'
+                prompt += 'So far in the experiment, you received ' + str(total_reward) + ' bonus points in total.\n'
         prompt += '\n'
 
 
@@ -214,7 +214,7 @@ for dataset in datasets:
         print(prompt)
 
         all_prompts.append({'text': prompt,
-            'experiment': 'fciranka_vandenbos_2024/' + dataset,
+            'experiment': 'ciranka_vandenbos_2024/' + dataset,
             'participant': str(participant),
             'RTs': RTs,
             'age': str(age),

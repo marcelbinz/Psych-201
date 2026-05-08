@@ -38,7 +38,7 @@ intervention_texts = ["As we mentioned in the beginning, people have told us tha
     "If worrying were an effective problem-solving strategy, people who worry more would have fewer problems. Science has shown that the opposite is actually the case and people that worry more report having more problems. What would you say to somebody to convince them of this?",
     "Imagine a person who worried a lot during the game you just played. Would the person still have been able to solve the game, if they had not worried? How?",
     "One idea for people to detach from their worries is to get them to see their thoughts as just passing mental events rather than facts. What could we say to people who worry in the game to help them see their worries as just passing thoughts? Just telling people to do this doesn't work so well, so we need some more intuitive explanation of why this would be helpful. ",
-    "Thank you for your answers! You will now play the game again for 5 more rounds. During the game, please think about your answers and whether you would like to change anything about them.\n" 
+    "Thank you for your answers! You will now play the game again for 5 more rounds. During the game, please think about your answers and whether you would like to change anything about them.\n"
   ]
 
 control_texts = ["As we announced in the beginning, we would like some feedback on how you are finding the game so far. Please think carefully about your answers. After you submit the study, we will review your responses and if they are nonsensical, we will not be able to pay you your bonus payment.\n",
@@ -124,7 +124,7 @@ def get_prompt(ID, cond):
                 prompt += do_intervention(ID)
             else:
                 prompt += do_control_intervention(ID)
-            
+
 
 
         block_dat = dat.loc[dat["block"] == block]
@@ -145,12 +145,12 @@ def get_prompt(ID, cond):
 
         else:
             prompt += "Your answer: <<no>>\n"
-        
+
 
 
             # number of trials might be less than 25 if kraken is found
         ntrials = len(block_dat["x"].dropna())
-        
+
         chosen_x = np.int64(block_dat.loc[block_dat["trial"] == 1, "x"].item())
         chosen_y = np.int64(block_dat.loc[block_dat["trial"] == 1, "y"].item())
 
@@ -161,9 +161,10 @@ def get_prompt(ID, cond):
             chosen_y = np.int64(block_dat.loc[block_dat["trial"] == trial, "y"].item())
             prompt += "On trial " + str(trial-1) + " of 25 you picked the square <<[" + str(chosen_x) + ", " + str(chosen_y) + "]>> and received " + str(np.int64(block_dat.loc[block_dat["trial"] == trial, "z"].item())) + " fish.\n"
 
+        assert len(block_dat["krakenFound"].unique()) == 1
         if block_dat["krakenFound"].unique() == 1:
             prompt += "You found the kraken! It stole all fish you found on this round. The round is over.\n"
-        
+
         else:
             prompt += "End of the round.\n"
 

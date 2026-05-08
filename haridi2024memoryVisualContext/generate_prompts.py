@@ -55,9 +55,9 @@ for dataset in datasets:
             prompt += 'Block ' + str(task) + ':\n'
 
             # learning phase
-            prompt += "In the next part, we will start the learning of the word pairs.\n\n"
-            "Please try your best to remember the word pairs so you can remember them later.\n"
-            "You get to immediatly test your memory by typing each word given the other word of the word pair you just learned.\n"
+            prompt += "In the next part, we will start the learning of the word pairs.\n\n"\
+            "Please try your best to remember the word pairs so you can remember them later.\n"\
+            "You get to immediatly test your memory by typing each word given the other word of the word pair you just learned.\n"\
             "Providing only the first three letters of the target word is allowed.\n\n"
 
             # only get the trials for the Phase LearningResponse
@@ -90,7 +90,7 @@ for dataset in datasets:
             prompt += '\n'
 
             #Distractor task
-            prompt += "In the next part, you will be performing a short letter memory task.\n\n"
+            prompt += "In the next part, you will be performing a short letter memory task.\n\n"\
             "You will see a sequence of letters and your task is to remember the letters in the order they were presented.\n"
             
             df_letter_response = df_task[df_task['Phase'] == 'LetterRecallResponse']
@@ -117,9 +117,9 @@ for dataset in datasets:
 
 
             #Recall phase
-            prompt += "In the next part, you have to remeber the words from the first part of the block.\n\n"
-            "Please try your best to remember the word pairs and be as fast and accurate as possible.\n\n"
-            "Providing only the first three letters of the target word is allowed.\n\n"
+            prompt += "In the next part, you have to remeber the words from the first part of the block.\n\n"\
+            "Please try your best to remember the word pairs and be as fast and accurate as possible.\n\n"\
+            "Providing only the first three letters of the target word is allowed.\n\n"\
             "If you cant remember the target word, please respond with 0.\n\n"
 
             df_recall = df_task[df_task['Phase'] == 'RecallResponse']
